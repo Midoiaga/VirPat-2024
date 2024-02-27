@@ -1,0 +1,307 @@
+texto,categoria_general,intent_1,intent_2,intent_3,intent_4
+de acuerdo,afirmar,,,,afirmar
+"adiós señor, mis mejores deseos para su esposa",despedida,,,,despedida
+¿cómo estás?,estado,,,,estado
+¿qué te pasa?,motivo_de_consulta,,,,motivo_de_consulta
+¿Cuál es el motivo de su visita?,motivo_de_consulta,,,,motivo_de_consulta
+¿qué te pasa?,motivo_de_consulta,,,,motivo_de_consulta
+¿Por qué vienes a verme hoy?,motivo_de_consulta,,,,motivo_de_consulta
+"hola, ¿qué te trae por aquí?",motivo_de_consulta,,,,motivo_de_consulta
+"hola, ¿qué te pasa?",motivo_de_consulta,,,,motivo_de_consulta
+¿tiene usted su tarjeta sanitaria?,otros,,,,otros
+¿Cuál es su consumo de alcohol?,personal,adiccion,alcohol,cantidad,personal_adiccion_alcohol_cantidad
+¿Vino francés?,personal,adiccion,alcohol,describir,personal_adiccion_alcohol_describir
+¿Cuánto tiempo has estado bebiendo?,personal,adiccion,alcohol,duracion,personal_adiccion_alcohol_duracion
+¿bebe regularmente?,personal,adiccion,alcohol,frecuencia,personal_adiccion_alcohol_frecuencia
+¿ha dejado de beber alcohol recientemente?,personal,adiccion,alcohol,otros,personal_adiccion_alcohol_otros
+¿bebe alcohol?,personal,adiccion,alcohol,si_o_no,personal_adiccion_alcohol_si_o_no
+¿Cuántos cigarrillos al día?,personal,adiccion,fumar,cantidad,personal_adiccion_fumar_cantidad
+cuánto tiempo has fumado,personal,adiccion,fumar,duracion,personal_adiccion_fumar_duracion
+¿fuma regularmente?,personal,adiccion,fumar,frecuencia,personal_adiccion_fumar_frecuencia
+¿desde cuándo fumas?,personal,adiccion,fumar,inicio,personal_adiccion_fumar_inicio
+¿fumas?,personal,adiccion,fumar,si_o_no,personal_adiccion_fumar_si_o_no
+¿fumas?,personal,adiccion,fumar,si_o_no,personal_adiccion_fumar_si_o_no
+¿tiene alguna otra adicción?,personal,adiccion,otros,describir,personal_adiccion_otros_describir
+¿tomas drogas?,personal,adiccion,otros,si_o_no,personal_adiccion_otros_si_o_no
+¿Quién es la persona a notificar?,personal,contacto,,,personal_contacto
+¿vive en una zona con mucha contaminación atmosférica?,personal,datos,direccion,,personal_datos_direccion
+¿Cuántos años tienes?,personal,datos,edad,,personal_datos_edad
+¿Cuántos años tienes?,personal,datos,edad,,personal_datos_edad
+¿Cuál es su fecha de nacimiento?,personal,datos,fecha_de_nacimiento,,personal_datos_fecha_de_nacimiento
+¿Cuál es tu nombre de pila?,personal,datos,nombre,,personal_datos_nombre
+su apellido,personal,datos,nombre,,personal_datos_nombre
+¿Cuánto deporte haces durante la semana?,personal,deporte,cantidad,,personal_deporte_cantidad
+¿has estado nadando recientemente?,personal,deporte,cuando,,personal_deporte_cuando
+¿qué deportes te gustaría practicar?,personal,deporte,describir,,personal_deporte_describir
+¿entrenas regularmente?,personal,deporte,frecuencia,,personal_deporte_frecuencia
+¿eres atlético?,personal,deporte,si_o_no,,personal_deporte_si_o_no
+¿cuál es la cantidad de alcaravea que consume?,personal,dieta,cantidad,,personal_dieta_cantidad
+¿acabas de comer?,personal,dieta,cuando,,personal_dieta_cuando
+puede describir sus hábitos alimenticios,personal,dieta,describir,,personal_dieta_describir
+cuánto tiempo lleva consumiendo nutrientes,personal,dieta,duracion,,personal_dieta_duracion
+¿Comes a menudo comida rápida?,personal,dieta,frecuencia,,personal_dieta_frecuencia
+"ok ¿has comido algo especial, no como de costumbre?",personal,dieta,otros,,personal_dieta_otros
+¿está usted en una dieta baja en azúcar,personal,dieta,si_o_no,,personal_dieta_si_o_no
+¿estás a dieta?,personal,dieta,si_o_no,,personal_dieta_si_o_no
+¿Cuál es su situación familiar?,personal,entorno,describir,,personal_entorno_describir
+¿Qué edad tienen?,personal,entorno,hijos,edad,personal_entorno_hijos_edad
+¿cuál es el nombre de su hijo de 12 años?,personal,entorno,hijos,nombre,personal_entorno_hijos_nombre
+¿están en la escuela?,personal,entorno,hijos,otros,personal_entorno_hijos_otros
+¿chicos?,personal,entorno,hijos,si_o_no,personal_entorno_hijos_si_o_no
+¿tiene hijos?,personal,entorno,hijos,si_o_no,personal_entorno_hijos_si_o_no
+¿alguna mascota?,personal,entorno,mascota,si_o_no,personal_entorno_mascota_si_o_no
+cuántas personas viven contigo,personal,entorno,otros,describir,personal_entorno_otros_describir
+¿todavía viven tus abuelos?,personal,entorno,otros,si_o_no,personal_entorno_otros_si_o_no
+¿Siguen vivos tus padres?,personal,entorno,padres,si_o_no,personal_entorno_padres_si_o_no
+cómo se llama su marido,personal,entorno,pareja,nombre,personal_entorno_pareja_nombre
+¿estás casado?,personal,entorno,pareja,si_o_no,personal_entorno_pareja_si_o_no
+¿Cuánto mide usted?,personal,fisico,altura,,personal_fisico_altura
+ha perdido peso en las últimas semanas,personal,fisico,peso,cambio,personal_fisico_peso_cambio
+llevas mucho tiempo con este peso,personal,fisico,peso,duracion,personal_fisico_peso_duracion
+¿Cuánto pesas?,personal,fisico,peso,peso,personal_fisico_peso_peso
+cuál es su peso,personal,fisico,peso,peso,personal_fisico_peso_peso
+estilo de vida,personal,otros,describir,,personal_otros_describir
+¿habla usted francés?,personal,otros,si_o_no,,personal_otros_si_o_no
+¿Duerme toda la noche o se despierta durante la noche?,personal,sueño,describir,,personal_sueño_describir
+¿Duermes demasiado?,personal,sueño,horas,,personal_sueño_horas
+¿duermes normalmente?,personal,sueño,si_o_no,,personal_sueño_si_o_no
+¿has hecho algún otro trabajo antes de esto?,personal,trabajo,anterior,,personal_trabajo_anterior
+¿Cuál es su trabajo?,personal,trabajo,describir,,personal_trabajo_describir
+¿a qué te dedicas?,personal,trabajo,describir,,personal_trabajo_describir
+¿Cuánto tiempo lleva trabajando como cuidador de niños?,personal,trabajo,duracion,,personal_trabajo_duracion
+¿Cuántas horas a la semana trabaja?,personal,trabajo,horas,,personal_trabajo_horas
+¿Dónde trabajas?,personal,trabajo,lugar,,personal_trabajo_lugar
+¿llevas cargas pesadas en el trabajo?,personal,trabajo,otros,,personal_trabajo_otros
+¿practica usted el cuidado de los niños?,personal,trabajo,si_o_no,,personal_trabajo_si_o_no
+¿has viajado?,personal,viajes,describir,,personal_viajes_describir
+Muy bien... ¿entonces te quedas en Francia qué?,personal,viajes,otros,,personal_viajes_otros
+ha viajado recientemente,personal,viajes,si_o_no,,personal_viajes_si_o_no
+has estado ausente del trabajo,psiquiatria,,,,psiquiatria
+has tenido gestos suicidas,psiquiatria,,,,psiquiatria
+tienes pensamientos oscuros,psiquiatria,,,,psiquiatria
+¿qué sientes?,psiquiatria,,,,psiquiatria
+ha tenido recientemente un choque emocional,psiquiatria,,,,psiquiatria
+¿Eres feliz por naturaleza?,psiquiatria,estado de animo,describir,,psiquiatria_estado de animo_describir
+te sientes confundido,psiquiatria,estado de animo,si_o_no,,psiquiatria_estado de animo_si_o_no
+hola,saludo,,,,saludo
+buenos días señor,saludo,,,,saludo
+¿Cuál fue el peso del bebé al nacer?,sintoma,bebe,peso,,sintoma_bebe_peso
+¿ha tenido el bebé convulsiones?,sintoma,bebe,si_o_no,,sintoma_bebe_si_o_no
+¿hay otros enfermos a su alrededor con los mismos síntomas?,sintoma,entorno,si_o_no,,sintoma_entorno_si_o_no
+¿hay gente a tu alrededor con dolor?,sintoma,entorno,si_o_no,,sintoma_entorno_si_o_no
+¿sin antecedentes familiares?,sintoma,familia,describir,,sintoma_familia_describir
+¿Cuándo tuvo su hijo la varicela?,sintoma,familia,inicio,,sintoma_familia_inicio
+¿hay antecedentes de melanocitoma en su familia?,sintoma,familia,si_o_no,,sintoma_familia_si_o_no
+¿alguien en su familia tiene fracturas,sintoma,familia,si_o_no,,sintoma_familia_si_o_no
+¿tiene usted alguna alergia a los tratamientos?,sintoma,paciente,alergia,describir,sintoma_paciente_alergia_describir
+¿tiene usted alguna alergia?,sintoma,paciente,alergia,describir,sintoma_paciente_alergia_describir
+¿alergia a los tratamientos?,sintoma,paciente,alergia,si_o_no,sintoma_paciente_alergia_si_o_no
+¿tiene algún antecedente particular? ¿algún problema de salud? ¿ha hecho esto antes?,sintoma,paciente,antecedentes,describir,sintoma_paciente_antecedentes_describir
+¿Ha tenido alguna vez enfermedades venéreas?,sintoma,paciente,antecedentes,si_o_no,sintoma_paciente_antecedentes_si_o_no
+¿has estado alguna vez enfermo?,sintoma,paciente,antecedentes,si_o_no,sintoma_paciente_antecedentes_si_o_no
+¿ha tenido alguna vez dificultades para respirar?,sintoma,paciente,antecedentes,si_o_no,sintoma_paciente_antecedentes_si_o_no
+¿ha tenido alguna vez sensación de ardor?,sintoma,paciente,antecedentes,si_o_no,sintoma_paciente_antecedentes_si_o_no
+¿cuándo has tenido dolor de ojos?,sintoma,paciente,aparicion,describir,sintoma_paciente_aparicion_describir
+¿y empezó de repente o poco a poco?,sintoma,paciente,aparicion,describir,sintoma_paciente_aparicion_describir
+¿se produjo de repente o fue progresivo?,sintoma,paciente,aparicion,describir,sintoma_paciente_aparicion_describir
+¿cuándo se tiene la tensión alta?,sintoma,paciente,aparicion,describir,sintoma_paciente_aparicion_describir
+¿se despierta por la noche por el calor en el lugar de la inyección?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+te quedas sin aliento cuando haces las tareas del hogar,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+le falta el aire cuando sube escaleras o camina muy rápido,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿siente náuseas cuando se acuesta?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿Sientes dolor en el pecho cuando vas en bicicleta?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿los dolores de pecho le despiertan por la noche?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿mira fijamente durante un ataque?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿hay síntomas como debilidad o pérdida del habla cuando se tiene dolor de cabeza?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿experimentas crujidos de oídos similares cuando estás molesto?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿Pierde gotas de orina al final de la micción?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿tiene las piernas más pesadas o más hinchadas durante el periodo?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿se orina a veces al estornudar?,sintoma,paciente,aparicion,si_o_no,sintoma_paciente_aparicion_si_o_no
+¿hay algo que mejore la tos?,sintoma,paciente,cambio,describir,sintoma_paciente_cambio_describir
+¿hay posiciones que alivien el dolor?,sintoma,paciente,cambio,describir,sintoma_paciente_cambio_describir
+¿se alivia el dolor con ciertas posiciones?,sintoma,paciente,cambio,describir,sintoma_paciente_cambio_describir
+se alivia el dolor al comer,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+¿se alivia su dolor de cabeza con la medicación?,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+el aire acondicionado aumenta estos síntomas,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+cortar el césped agrava estos síntomas,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+el dolor se alivia con el ejercicio ligero,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+la sensación de ardor aumenta con la comida picante,sintoma,paciente,cambio,si_o_no,sintoma_paciente_cambio_si_o_no
+¿cuál es el máximo esfuerzo que es capaz de realizar antes de experimentar dificultades respiratorias?,sintoma,paciente,capacidad,describir,sintoma_paciente_capacidad_describir
+¿es usted capaz de repetir palabras o frases?,sintoma,paciente,capacidad,si_o_no,sintoma_paciente_capacidad_si_o_no
+¿se puede tocar la parte posterior de los muslos con los talones?,sintoma,paciente,capacidad,si_o_no,sintoma_paciente_capacidad_si_o_no
+puede ponerse en cuclillas,sintoma,paciente,capacidad,si_o_no,sintoma_paciente_capacidad_si_o_no
+¿realizas alguna actividad que suponga un gran esfuerzo para tu voz?,sintoma,paciente,causa,describir,sintoma_paciente_causa_describir
+qué causa este dolor,sintoma,paciente,causa,describir,sintoma_paciente_causa_describir
+¿Cuál podría ser la causa de su respiración agónica?,sintoma,paciente,causa,describir,sintoma_paciente_causa_describir
+las situaciones de ansiedad te hacen escupir,sintoma,paciente,causa,si_o_no,sintoma_paciente_causa_si_o_no
+¿Asma inducido por el ejercicio?,sintoma,paciente,causa,si_o_no,sintoma_paciente_causa_si_o_no
+las emociones desencadenan sus cólicos,sintoma,paciente,causa,si_o_no,sintoma_paciente_causa_si_o_no
+síntomas,sintoma,paciente,describir,,sintoma_paciente_describir
+¿Cómo le duele?,sintoma,paciente,describir,,sintoma_paciente_describir
+¿qué síntomas experimentas?,sintoma,paciente,describir,,sintoma_paciente_describir
+cómo es su trastorno del sistema nervioso,sintoma,paciente,describir,,sintoma_paciente_describir
+¿la parálisis del lado izquierdo es menor?,sintoma,paciente,describir,,sintoma_paciente_describir
+síntomas ?,sintoma,paciente,describir,,sintoma_paciente_describir
+es su articulación inestable o estable,sintoma,paciente,describir,,sintoma_paciente_describir
+¿no hay infecciones recurrentes?,sintoma,paciente,describir,,sintoma_paciente_describir
+¿Cuánto orinas?,sintoma,paciente,describir,,sintoma_paciente_describir
+¿Cómo es el dolor de oído y la secreción del oído?,sintoma,paciente,describir,,sintoma_paciente_describir
+¿tiene alguna enfermedad?,sintoma,paciente,describir,,sintoma_paciente_describir
+"tiene dolor en forma de barra, retroesternal, constrictiva, con irradiación",sintoma,paciente,describir,,sintoma_paciente_describir
+¿tiene algún dolor,sintoma,paciente,describir,,sintoma_paciente_describir
+cuéntame tus problemas reproductivos,sintoma,paciente,describir,,sintoma_paciente_describir
+no sufres de nada ?,sintoma,paciente,describir,,sintoma_paciente_describir
+de qué color es su orina,sintoma,paciente,describir,,sintoma_paciente_describir
+¿Cuál es la consistencia de su flujo vaginal?,sintoma,paciente,describir,,sintoma_paciente_describir
+¿sufre problemas urológicos?,sintoma,paciente,describir,,sintoma_paciente_describir
+la pérdida de audición es parcial o total,sintoma,paciente,describir,,sintoma_paciente_describir
+síntomas,sintoma,paciente,describir,,sintoma_paciente_describir
+en qué período de tiempo se produjo la pérdida de peso,sintoma,paciente,duracion,,sintoma_paciente_duracion
+en qué período de tiempo se produjo la pérdida de peso,sintoma,paciente,duracion,,sintoma_paciente_duracion
+es su primer embarazo,sintoma,paciente,embarazo,antecedentes,sintoma_paciente_embarazo_antecedentes
+cuántos embarazos ha tenido,sintoma,paciente,embarazo,cantidad,sintoma_paciente_embarazo_cantidad
+¿cómo fueron los embarazos?,sintoma,paciente,embarazo,describir,sintoma_paciente_embarazo_describir
+¿Cuándo vas a dar a luz?,sintoma,paciente,embarazo,fin,sintoma_paciente_embarazo_fin
+y ¿tiene la temperatura?,sintoma,paciente,fiebre,describir,sintoma_paciente_fiebre_describir
+¿Ha tenido fiebre?,sintoma,paciente,fiebre,si_o_no,sintoma_paciente_fiebre_si_o_no
+¿y ahora sigues teniendo fiebre?,sintoma,paciente,fiebre,si_o_no,sintoma_paciente_fiebre_si_o_no
+¿Cuántas veces orina al día?,sintoma,paciente,frecuencia,,sintoma_paciente_frecuencia
+puede decirme aproximadamente cuántas migrañas tiene al mes,sintoma,paciente,frecuencia,,sintoma_paciente_frecuencia
+tos seca desde cuando,sintoma,paciente,inicio,,sintoma_paciente_inicio
+¿Cuándo se produjo este trastorno de la marcha?,sintoma,paciente,inicio,,sintoma_paciente_inicio
+desde cuándo tiene problemas con los ovarios,sintoma,paciente,inicio,,sintoma_paciente_inicio
+desde cuándo tiene problemas con las grietas,sintoma,paciente,inicio,,sintoma_paciente_inicio
+¿desde cuándo te duelen las costillas?,sintoma,paciente,inicio,,sintoma_paciente_inicio
+"¿tienes dolor ""en ningún otro sitio""?",sintoma,paciente,localizacion,describir,sintoma_paciente_localizacion_describir
+¿dónde duele?,sintoma,paciente,localizacion,describir,sintoma_paciente_localizacion_describir
+puede localizar el dolor,sintoma,paciente,localizacion,describir,sintoma_paciente_localizacion_describir
+"¿se ha extendido el dolor a otra zona del cuerpo es decir, cerca?",sintoma,paciente,localizacion,si_o_no,sintoma_paciente_localizacion_si_o_no
+es el dolor detrás del muslo y a lo largo de la parte interior de la pierna,sintoma,paciente,localizacion,si_o_no,sintoma_paciente_localizacion_si_o_no
+es el dolor en un solo lado,sintoma,paciente,localizacion,si_o_no,sintoma_paciente_localizacion_si_o_no
+¿el dolor baja a los hombros?,sintoma,paciente,localizacion,si_o_no,sintoma_paciente_localizacion_si_o_no
+¿Cómo le molesta el dolor en sus actividades sociales?,sintoma,paciente,secuela,describir,sintoma_paciente_secuela_describir
+la debilidad afecta a la bipedestación,sintoma,paciente,secuela,si_o_no,sintoma_paciente_secuela_si_o_no
+han fallecido como consecuencia de una enfermedad,sintoma,paciente,secuela,si_o_no,sintoma_paciente_secuela_si_o_no
+y ¿se le está siguiendo por alguna enfermedad en particular?,sintoma,paciente,seguimiento,describir,sintoma_paciente_seguimiento_describir
+está en seguimiento por su hipertensión,sintoma,paciente,seguimiento,si_o_no,sintoma_paciente_seguimiento_si_o_no
+¿ha tenido hinchazón en la rodilla?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿su dolor va acompañado de problemas de visión?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted una sensación de urgencia?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Había sangre en el vómito o no?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿ha tenido alguna vez problemas de pecho?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted apetito?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+has perdido el apetito,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+cansado,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Le cuesta respirar?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+sus brotes han aumentado,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Tu enuresis nocturna va acompañada de xerostomía?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿haces algo para evitar la rigidez de cuello?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Es su flujo vaginal amarillento?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿sufre problemas de deglución?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿hay que empujar para terminar de orinar?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Ha notado mareos o visión borrosa?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene problemas de hipotálamo?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Pierde usted mucha orina?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿estás enfermo?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+el dolor se irradia,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+y ¿alguien te dijo o notó que estabas un poco amarillo o te miraste? ¿te viste normal?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Le duele mucho al mismo tiempo que tiene hambre?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+has vomitado sangre negra,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+"¿tiene algún problema de salud, por ejemplo, problemas digestivos?",sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted insomnio?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+dolor discreto,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿experimentas síntomas de abstinencia?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Tiene dificultad para vaciar la vejiga?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿has estado vomitando?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿alguna vez has necesitado que te sondeen para orinar?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+es tu respiración más rápida,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene una barra de sinusitis?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene dificultad para caminar?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted dolor de sinusitis?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿estás cansado?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted visión borrosa?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+era todo el esputo con sangre,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene entumecimiento o pérdida de sensibilidad en la pierna?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tuvo algún dolor en la vejiga,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted secreción por el pezón?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿ha tenido alguna vez un ataque de asma en el trabajo?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene hinchazón en una articulación?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene dolor en el borde interior de la rodilla,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted la voz ronca?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Sangras espontáneamente de las encías?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+"¿Cómo es el dolor cuando tienes este dolor, es como si tuvieras mucha hambre?",sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿es más bien una llaga?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿ha tenido dificultades para hacer sus necesidades?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿es un cólico renal?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿nunca ha tenido la tensión alta?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿te han golpeado alguna vez en el ojo con un objeto afilado?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted la presión arterial alta?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿ve usted chispas volando alrededor de sus ojos,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿estás tan cansado por la mañana como si no hubieras dormido?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+has notado que tus tobillos están hinchados,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿Vas al baño?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿sufre de enfermedades lumbosacras?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+ha sufrido violencia sexual,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene dolor en el pecho?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+hay que empujar para terminar de tragar,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+tenía azúcar en la orina,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene usted la presión arterial alta?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿sufre de enfermedades de las encías?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tienes dolor de garganta?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿sufre problemas musculares?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+¿tiene dificultad para oír sonidos graves?,sintoma,paciente,si_o_no,,sintoma_paciente_si_o_no
+en qué forma utiliza anticonceptivos,tratamiento,anticonceptivos,describir,,tratamiento_anticonceptivos_describir
+¿Con qué frecuencia utiliza preservativos durante el sexo anal?,tratamiento,anticonceptivos,frecuencia,,tratamiento_anticonceptivos_frecuencia
+¿usas anticonceptivos?,tratamiento,anticonceptivos,si_o_no,,tratamiento_anticonceptivos_si_o_no
+¿le sigue otro especialista?,tratamiento,consulta,describir,,tratamiento_consulta_describir
+¿No tienes un médico de cabecera?,tratamiento,consulta,especialista,si_o_no,tratamiento_consulta_especialista_si_o_no
+ha ido al médico recientemente,tratamiento,consulta,fecha,,tratamiento_consulta_fecha
+¿soy el primer médico que has visto?,tratamiento,consulta,si_o_no,,tratamiento_consulta_si_o_no
+¿tiene usted un médico?,tratamiento,consulta,si_o_no,,tratamiento_consulta_si_o_no
+¿Cómo sabe que su presión arterial es alta?,tratamiento,diagnostico,como,,tratamiento_diagnostico_como
+¿Cuándo se realizó un inmunoensayo enzimático?,tratamiento,diagnostico,fecha,,tratamiento_diagnostico_fecha
+¿Quién te ha dicho que tienes hipertensión esencial?,tratamiento,diagnostico,quien,,tratamiento_diagnostico_quien
+¿te han dicho alguna vez que tienes una enfermedad de transmisión sexual?,tratamiento,diagnostico,si_o_no,,tratamiento_diagnostico_si_o_no
+¿No tiene un historial médico notable?,tratamiento,historial,describir,,tratamiento_historial_describir
+¿tiene un historial médico?,tratamiento,historial,si_o_no,,tratamiento_historial_si_o_no
+de acuerdo ¿y ya habías tomado tratamientos antes?,tratamiento,medicacion,antecedentes,,tratamiento_medicacion_antecedentes
+¿cuándo tomaste el doliprane?,tratamiento,medicacion,cuando,,tratamiento_medicacion_cuando
+¿tomas alguna medicación?,tratamiento,medicacion,describir,,tratamiento_medicacion_describir
+¿vacunas?,tratamiento,medicacion,describir,,tratamiento_medicacion_describir
+¿tiene algún tratamiento?,tratamiento,medicacion,describir,,tratamiento_medicacion_describir
+"¿Alguna cosa en particular, medicamentos?",tratamiento,medicacion,describir,,tratamiento_medicacion_describir
+¿a qué dosis?,tratamiento,medicacion,dosis,,tratamiento_medicacion_dosis
+¿cuánto tiempo lleva tomando coversyl para la hipertensión?,tratamiento,medicacion,duracion,,tratamiento_medicacion_duracion
+cierto ¿toma tratamientos todos los días? ¿medicamentos?,tratamiento,medicacion,frecuencia,,tratamiento_medicacion_frecuencia
+¿por qué tomas coversyl?,tratamiento,medicacion,motivo,,tratamiento_medicacion_motivo
+¿alguna vez te olvidas de tomar tu pastilla?,tratamiento,medicacion,otros,,tratamiento_medicacion_otros
+Te recetaré paracetamol,tratamiento,medicacion,receta,,tratamiento_medicacion_receta
+hay abuso de laxantes,tratamiento,medicacion,si_o_no,,tratamiento_medicacion_si_o_no
+¿tiene las vacunas al día?,tratamiento,medicacion,si_o_no,,tratamiento_medicacion_si_o_no
+¿Sólo toma paracetamol?,tratamiento,medicacion,si_o_no,,tratamiento_medicacion_si_o_no
+"ha tenido un problema de ritmo con un marcapasos, desfibrilador cardioversor implantable o implante de holter",tratamiento,operacion,complicaciones,,tratamiento_operacion_complicaciones
+cómo fue el cuidado postoperatorio,tratamiento,operacion,describir,,tratamiento_operacion_describir
+"se ha sometido a una angioplastia coronaria con o sin stent, a una cirugía de bypass coronario",tratamiento,operacion,describir,,tratamiento_operacion_describir
+¿alguna operación?,tratamiento,operacion,describir,,tratamiento_operacion_describir
+¿Alguna operación quirúrgica?,tratamiento,operacion,describir,,tratamiento_operacion_describir
+cuál es su consumo de psicoestimulantes,tratamiento,operacion,dosis,,tratamiento_operacion_dosis
+¿Quién será su cirujano?,tratamiento,operacion,especialista,,tratamiento_operacion_especialista
+¿cuándo se operó del epitelio exocervical?,tratamiento,operacion,fecha,,tratamiento_operacion_fecha
+¿cuándo te operaron del corazón?,tratamiento,operacion,fecha,,tratamiento_operacion_fecha
+¿se cepilla los dientes a menudo?,tratamiento,operacion,frecuencia,,tratamiento_operacion_frecuencia
+¿Por qué quiere quitarte la vesícula?,tratamiento,operacion,motivo,,tratamiento_operacion_motivo
+¿cómo fue la operación de los ganglios linfáticos?,tratamiento,operacion,resultados,,tratamiento_operacion_resultados
+¿qué tal ha llevado la operación del aparato digestivo?,tratamiento,operacion,resultados,,tratamiento_operacion_resultados
+¿cómo fue la cirugía del tarso?,tratamiento,operacion,resultados,,tratamiento_operacion_resultados
+¿estás tomando algún tratamiento?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+¿ha sido hospitalizado alguna vez?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+¿ha tenido una operación de riñón?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+se ha operado el himen,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+¿estás en tratamiento?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+¿tiene que usar muletas?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+cesárea o ?,tratamiento,operacion,si_o_no,,tratamiento_operacion_si_o_no
+háblame de tu vida_sexual,vida_sexual,describir,,,vida_sexual_describir
+¿Qué edad tenías cuando tuviste tus primeras relaciones sexuales?,vida_sexual,edad,,,vida_sexual_edad
+¿Con qué frecuencia tiene usted relaciones sexuales?,vida_sexual,frecuencia,,,vida_sexual_frecuencia
+ha tenido relaciones sexuales bajo la influencia del alcohol o las drogas en el último año,vida_sexual,otros,,,vida_sexual_otros
+es usted sexualmente activo,vida_sexual,si_o_no,,,vida_sexual_si_o_no
