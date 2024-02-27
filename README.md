@@ -1,6 +1,14 @@
 # VirPat-2024
 
+
+
+## QA corpus
+This corpus is an adaptation from the french corpus of the "A dataset of simulated patient-physician medical interviews with a focus on respiratory cases." (Fareez et al. (2022)) paper.
+[### Code to experiment with the QA model](https://github.com/huggingface/transformers/blob/main/examples/legacy/question-answering/run_squad.py)
+
 ## Annotation guide for the intent classification corpus
+
+This corpus is an adaptation from the french corpus of the "A French Medical Conversations Corpus Annotated for a Virtual Patient DialogueSystem" (Laleye et al. (2020)) paper.
 
 | Main Intents         | Description                                                                       | Examples                              | Amount                              |
 |----------------------|------------------------------------------------------------------------------------|----------------------------------------|--------------------------------------|
