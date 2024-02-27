@@ -1,5 +1,7 @@
 # VirPat-2024
 
+## Annotation guuide
+
 | Main Intents         | Description                                                                       | Examples                              | Amount                              |
 |----------------------|------------------------------------------------------------------------------------|----------------------------------------|--------------------------------------|
 | afirmar (affirm)              | When the doctor confirms the patient's response.                                   | Yes / Very good                         | 13                                   |
@@ -59,23 +61,24 @@
 
 | Intent Symptom               || Description                                                                    | Examples                  | Amount                            |
 |---------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| bebe                    |                                                             |This type of question only occurs when the patient is a child and they cannot speak so the question goes to their parents.| Has the baby had seizures? / What was the baby's weight at birth? |               10                                         |
-| entorno                 |                                                             | Questions about the patient's environment (excluding family).|  Are you exposed to anytoxic sustance? / is there any sick around you?   |          20    |
-| familia                 |                                                             | When the doctor asks about patient's family diseases and symptoms. |  Does your family have any health problems? / Does anyone in your family have oral leukoedema?    |        43                                            |
-| paciente                | alergia                                                     | Questions about the patient's allergies.                      |       allergies? / latex allergy? |30 |
-|                         | antecedentes                                                | When doctors ask if the patient has had a certain symptom or disease at some other time.| Has this pain ever happened to you?/ Do you have a history of ulcers? |52 |
-|                         | aparicion                                                   | When it is asked how and when the patient's symptoms appear. | And did it start suddenly or little by little? / Do your gums bleed when you brush your teeth or spontaneously?  |157 |
-|                         |cambio                                                       | What the doctor asks what causes to ease or worsen the symptoms.| Is there anything that makes these worse symptoms? / Is the pain relieved or does it get worse with exercise?  | 91|
-|                         | capacidad                                                   | When it asked to test the patient's abilities. |  Can you stretch your legs in front of you? / Can you move your foot? | 42| 
-|                         | causa                                                       | When the doctor asks the patient what could have caused their symptoms. |  Was there any trigger for this pain? / do the emotions trigger your palpitations? | 61|
-|                         | describir                                                   | Questions about patient's illness or symptoms in a broad way |  tell me about your illness vulvar / How was the vomiting?|193   |
-|                         | duracion                                                    | Questions like how long the patient has had symptoms| How long have you had this pain? / how long have you been with pain? | 23  |
-|                         |embarazo                                                     | Questions that can be asked if the patient is pregnant | Is it your first pregnancy / have you water broken|24 |
-|                         | fiebre                                                      | Utterances about patient's fever|  |   |
-|                         | frecuencia                                                  | |  | |
-|                         | inicio                                                      | |  | |
-|                         | localizacion                                                | |  |  |
-|                         | secuela                                                     | |   |  |
-|                         | seguimiento                                                 | |  | |
-|                         | si_o_no                                                     | |   | |
+| bebe (baby)                   |                                                             |This type of question only occurs when the patient is a child and they cannot speak so the question goes to their parents.| Has the baby had seizures? / What was the baby's weight at birth? |               10                                         |
+| entorno (environment)                |                                                             | Questions about the patient's environment (excluding family).|  Are you exposed to anytoxic sustance? / is there any sick around you?   |          20    |
+| familia (family)               |                                                             | When the doctor asks about patient's family diseases and symptoms. |  Does your family have any health problems? / Does anyone in your family have oral leukoedema?    |        43                                            |
+| paciente (patient)               | alergia (allergy)                                                    | Questions about the patient's allergies.                      |       allergies? / latex allergy? |30 |
+|                         | antecedentes (record)                                               | When doctors ask if the patient has had a certain symptom or disease at some other time.| Has this pain ever happened to you?/ Do you have a history of ulcers? |52 |
+|                         | aparicion (aparition)                                                  | When it is asked how and when the patient's symptoms appear. | And did it start suddenly or little by little? / Do your gums bleed when you brush your teeth or spontaneously?  |157 |
+|                         |cambio (change)                                                      | What the doctor asks what causes to ease or worsen the symptoms.| Is there anything that makes these worse symptoms? / Is the pain relieved or does it get worse with exercise?  | 91|
+|                         | capacidad (capability)                                                  | When it asked to test the patient's abilities. |  Can you stretch your legs in front of you? / Can you move your foot? | 42| 
+|                         | causa (cause)                                                     | When the doctor asks the patient what could have caused their symptoms. |  Was there any trigger for this pain? / do the emotions trigger your palpitations? | 61|
+|                         | describir (describe)                                                  | Questions about patient's illness or symptoms in a broad way. |  tell me about your illness vulvar / How was the vomiting?|193   |
+|                         | duracion (duration)                                                   | Questions like how long the patient has had symptoms.| How long have you had this pain? / how long have you been with pain? | 23  |
+|                         |embarazo (pregnancy)                                                    | Questions that can be asked if the patient is pregnant. | Is it your first pregnancy / have you water broken|24 |
+|                         | fiebre (fever)                                                     | Utterances about patient's fever.|   Do you have fever? / What is your temperature?| 25  |
+|                         | frecuencia (frequency)                                                 | When it is asked how often a symptom occurs.|  Does this tiredness bother you? / How often do you have hallucinations?| 15|
+|                         | inicio (start)                                                     | When it is asked when the patient's first symptoms appeared.| When did it start? / When did you start coughing? |45 |
+|                         | localizacion (localization)                                               | When doctors ask in what part of the body has the patient the symptom.| can you localize the pain?/does it pain down to the shoulders? |72  |
+|                         | secuela (sequel)                                                    | Questions about symptom's consequences in their daily life.| Does your shortness of breath prevent you to do certain things? / Did the pain stop you from eating?  |29  |
+|                         | seguimiento (follow-up)                                                | Asking the patient if they have ever come to treat an illness.| And are you being followed for any particular disease?/are you being followed up for your hypertension? | 10|
+|                         | si_o_no (yes/no)                                                    |When the doctor questions the patient about a particular symptom and when he expects a yes or no answer. | Do you have ringing in your ears? /
+do you have an itchy nose?  | 662|
 
