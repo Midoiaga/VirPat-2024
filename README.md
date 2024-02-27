@@ -79,6 +79,5 @@
 |                         | localizacion (localization)                                               | When doctors ask in what part of the body has the patient the symptom.| can you localize the pain?/does it pain down to the shoulders? |72  |
 |                         | secuela (sequel)                                                    | Questions about symptom's consequences in their daily life.| Does your shortness of breath prevent you to do certain things? / Did the pain stop you from eating?  |29  |
 |                         | seguimiento (follow-up)                                                | Asking the patient if they have ever come to treat an illness.| And are you being followed for any particular disease?/are you being followed up for your hypertension? | 10|
-|                         | si_o_no (yes/no)                                                    |When the doctor questions the patient about a particular symptom and when he expects a yes or no answer. | Do you have ringing in your ears? /
-do you have an itchy nose?  | 662|
+|                         | si_o_no (yes/no)                                                    |When the doctor questions the patient about a particular symptom and when he expects a yes or no answer. | Do you have ringing in your ears? / do you have an itchy nose? | 662|
 
