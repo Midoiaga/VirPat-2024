@@ -1,5 +1,5 @@
 # VirPat-2024
-
+In this repository you will find the corpora and code used in the following paper:
 
 
 ## QA corpus
