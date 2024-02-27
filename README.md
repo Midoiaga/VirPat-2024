@@ -1,6 +1,6 @@
 # VirPat-2024
 
-## Annotation guide
+## Annotation guide for the intent classification corpus
 
 | Main Intents         | Description                                                                       | Examples                              | Amount                              |
 |----------------------|------------------------------------------------------------------------------------|----------------------------------------|--------------------------------------|
