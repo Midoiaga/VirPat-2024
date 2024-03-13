@@ -43,7 +43,7 @@ Moreover, the QA corpus also contains different format of question: the one that
 ##  Intent classification corpus
 
 This corpus is an adaptation from the french corpus of the "A French Medical Conversations Corpus Annotated for a Virtual Patient DialogueSystem" (Laleye et al. (2020)) paper. The corpus
-was automatically translated from French to Spanish and it was manually corrected, giving 2691 utterances where 145 different intent types were identified and from them 11 were considered main categories. They were classified in a hierarchical way from more generic to more specific. The deepest brach of the hierachy could arrive 4 leves of subcategories, counting the main category.
+was automatically translated from French to Spanish and it was manually corrected, giving 2691 utterances where 145 different intent types were identified and from them 11 were considered main categories. They were classified in a hierarchical way from more generic to more specific. The deepest brach of the hierachy could arrive 4 leves of subcategories, counting the main category. The corpus is divided in three different sets in a stratified way, 80% for training containing 2079 utterances and 10% for development and test with 306 utterances each.
 
 This dataset has a csv format, where the first column is the utterance of the doctor ("texto"). The next column refers to the main intention of the doctor (categoria_general) and the next columns until "intent_3" are subintents of the previous columns. And the last column (intent_4) is the final reprentation of the intent for that utterance.
 
