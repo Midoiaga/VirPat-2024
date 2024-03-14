@@ -9,7 +9,7 @@ capable of to achieve the main goal. The first corpus is question-answering corp
 ## QA corpus
 It is composed of doctor-patient consultation dialogues in English, recorded following the format of the OSCE exams and then transcribed and manually corrected. Our aim is to associate each dialogue with a corresponding clinical record in natural language, enriching the dialogue dataset with a textual description of each patient, thus opening the way to create new virtual patients simply by adding new clinical records to the dataset and we also tranlate it to Spanish. The next image shows the steps followed to create the final corpus. 
  
-This corpus is an adaptation from the English corpus of the "A dataset of simulated patient-physician medical interviews with a focus on respiratory cases." [(Fareez et al. (2022))](#References) to get to the third section. paper. The corpus presented in Fareez et al. (2022) was used as the basis for the development of the VIR-PAT-QA corpus.
+This corpus is an adaptation from the English corpus of the "A dataset of simulated patient-physician medical interviews with a focus on respiratory cases." [(Fareez et al. (2022))](#Fareez) to get to the third section. paper. The corpus presented in Fareez et al. (2022) was used as the basis for the development of the VIR-PAT-QA corpus.
 
 ![alt text](https://github.com/Midoiaga/VirPat-2024/blob/main/Figures/procesamientoDatos.png)
 
@@ -44,7 +44,7 @@ Moreover, the QA corpus also contains different format of question: the one that
 
 ##  Intent classification corpus
 
-This corpus is an adaptation from the French corpus of the "A French Medical Conversations Corpus Annotated for a Virtual Patient DialogueSystem" (Laleye et al. (2020)) paper. The corpus
+This corpus is an adaptation from the French corpus of the "A French Medical Conversations Corpus Annotated for a Virtual Patient DialogueSystem" [(Laleye et al. (2020))](#Laleye) paper. The corpus
 was automatically translated from French to Spanish and it was manually corrected, giving 2691 utterances where 145 different intent types were identified and from them 11 were considered main categories. They were classified in a hierarchical way from more generic to more specific. The deepest brach of the hierachy could arrive 4 leves of subcategories, counting the main category. The corpus is divided in three different sets in a stratified way, 80% for training containing 2079 utterances and 10% for development and test with 306 utterances each.
 
 This dataset has a csv format, where the first column is the utterance of the doctor ("texto"). The next column refers to the main intention of the doctor (categoria_general) and the next columns until "intent_3" are subintents of the previous columns. And the last column (intent_4) is the final reprentation of the intent for that utterance.
@@ -132,7 +132,7 @@ The following tables explains each intent with a descrition, example and amount:
 |                         | si_o_no (yes/no)                                                    |When the doctor questions the patient about a particular symptom and when he expects a yes or no answer. | Do you have ringing in your ears? / do you have an itchy nose? | 662|
 
 ## References
-<a id="References"></a>
-Faiha Fareez, Tishya Parikh, Christopher Wavell, Saba Shahab, Meghan Chevalier, Scott Good, Isabella De Blasi, Rafik Rhouma, Christopher McMahon, Jean-Paul Lam, Thomas Lo, and Christopher W. Smith. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Scientific Data, 9(1):313, 06 2022.ISSN 2052-4463. doi: 10.1038/s41597-022-01423-1. URL [https://doi.org/10.1038/s41597-022-01423-1](url).
 
-Fr ́ejus A. A. Laleye, Ga ̈el de Chalendar, Antonia Blani ́e, Antoine Brouquet, and Dan Behnamou. A French Medical Conversations Corpus Annotated for a Virtual Patient Dialogue System. In Proceedings of The 12th Language Resources and Evaluation Conference, pages 574–580, Marseille, France, May 2020. European Language ResourcesAssociation. URL [https://www.aclweb.org/anthology/2020.lrec-1.72](url).
+Faiha Fareez, Tishya Parikh, Christopher Wavell, Saba Shahab, Meghan Chevalier, Scott Good, Isabella De Blasi, Rafik Rhouma, Christopher McMahon, Jean-Paul Lam, Thomas Lo, and Christopher W. Smith. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Scientific Data, 9(1):313, 06 2022.ISSN 2052-4463. doi: 10.1038/s41597-022-01423-1. URL [https://doi.org/10.1038/s41597-022-01423-1](url). <a id="Fareez"></a>
+
+Fr ́ejus A. A. Laleye, Ga ̈el de Chalendar, Antonia Blani ́e, Antoine Brouquet, and Dan Behnamou. A French Medical Conversations Corpus Annotated for a Virtual Patient Dialogue System. In Proceedings of The 12th Language Resources and Evaluation Conference, pages 574–580, Marseille, France, May 2020. European Language ResourcesAssociation. URL [https://www.aclweb.org/anthology/2020.lrec-1.72](url). <a id="Laleye"></a>
