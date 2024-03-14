@@ -39,7 +39,7 @@ The corpus has the next attributes: Starting with the “data” is the part whe
 Moreover, the QA corpus also contains different format of question: the one that has the only the question itself, other one with the question and the intention of the doctor together and the last one that only has the intention of the doctor.
 
 
-[Code to experiment with the QA model](https://github.com/huggingface/transformers/blob/main/examples/legacy/question-answering/run_squad.py)
+
 
 ##  Intent corpus
 <a id="Intent"></a>
