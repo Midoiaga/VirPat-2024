@@ -3,13 +3,14 @@
 In this repository you will find the corpora and code used in the following paper: ____PAPER____HERE____
 
 ## Introduction
-Virtual patients (VP) have emerged as powerful tools in medical education and health simulation. VPs allow medical students to simulate a real clinical consultation, enabling them to reproduce a wide variety of consultation types, thus gaining valuable experience before medical exams or interviews with real patients. Virtual patients arebased on dialogue systems, which are AI-based automated systems designed to exchange information with users through natural language conversations. The main goal of a dialogue system is to enable effective communication between humans and computers, understanding user input in the form of text or voice and to appropriately respond to user demands. To aim that propose we have create 2 corpora of the medical domain and train QA system
-capable of to achieve the main goal. The first corpus is question-answering corpus get it from doctor-patient dialogs and the second is corpus that classifies the intention of doctor's utterance
+Virtual patients (VP) have emerged as powerful tools in medical education and health simulation. VPs allow medical students to simulate a real clinical consultation, enabling them to reproduce a wide variety of consultation types, thus gaining valuable experience before medical exams or interviews with real patients. Virtual patients arebased on dialogue systems, which are AI-based automated systems designed to exchange information with users through natural language conversations. The main goal of a dialogue system is to enable effective communication between humans and computers, understanding user input in the form of text or voice and to appropriately respond to user demands. To aim that propose we have create 2 corpora of medical domain:  corpus of manually aligned doctor questions, patient answers, and the corresponding clinical record [(QA corpus)](#QA) and a corpus of medical dialogue questions in Spanish annotated with intents [(Intent corpus)](#Intent). Besides, to prove that those corpora are useful, we create 2 models: For the first one a Question-Answering system ([Code](https://github.com/huggingface/transformers/blob/main/examples/legacy/question-answering/run_squad.py) to experiment with the QA model and the best final model(liiiiiinnnnnkkkkk)) and for the second one an intent classification system ([Code](https://github.com/Midoiaga/VirPat-2024/blob/main/ClinicalIntentClassification(Vir-Pat).ipynb) use to create the Intent classifier model and the final best [model](https://huggingface.co/Mikelium5/DoctorIntentClassifier)).
 
-## QA corpus
-It is composed of doctor-patient consultation dialogues in English, recorded following the format of the OSCE exams and then transcribed and manually corrected. Our aim is to associate each dialogue with a corresponding clinical record in natural language, enriching the dialogue dataset with a textual description of each patient, thus opening the way to create new virtual patients simply by adding new clinical records to the dataset and we also tranlate it to Spanish. The next image shows the steps followed to create the final corpus. 
+
+## VIR-PAT-QA corpus
+<a id="QA"></a>
+The aim of the VIR-PAT-QA corpus is to associate is to associate each dialogue with a corresponding clinical record in natural language, enriching the dialogue dataset with a textual description of each patient, thus opening the way to create new virtual patients simply by adding new clinical records to the dataset. To get that goal we tranlate automatically from English to Spanih doctor-patient consultation dialogues, recorded following the format of the OSCE exams and later on trancribed by [(Fareez et al. (2022))](#Fareez). Once tranlated the text, we had to manually correct all the tranlations errors. Then, we created the clinical records taking into account the doctor-patient dialogues. To end, we need to associate each answer of the patient to the clinical report where this answer was given.
  
-This corpus is an adaptation from the English corpus of the "A dataset of simulated patient-physician medical interviews with a focus on respiratory cases." [(Fareez et al. (2022))](#Fareez) to get to the third section. paper. The corpus presented in Fareez et al. (2022) was used as the basis for the development of the VIR-PAT-QA corpus.
+
 
 ![alt text](https://github.com/Midoiaga/VirPat-2024/blob/main/Figures/procesamientoDatos.png)
 
@@ -19,11 +20,9 @@ The final dataset contains a total of 6290 question-answer pairs from 129 differ
     
       * Answered questions: the response appears in the report
 
-      * Unanswered questions: when the information necessary to respond does not appear in the report, the span is empty and the "is_impossible" attribute value was set to True. This type       
-        corresponds to questions where the patient did not understand the question or when the answer in the dialogue did not answer the question. (This type have an empty space in the "answer" 
-        section from the dataset)
+      * Unanswered questions: when the information necessary to respond does not appear in the report, the span is empty and the "is_impossible" attribute value was set to True. This type            corresponds to questions where the patient did not understand the question or when the answer in the dialogue did not answer the question. (This type have an empty space in the     "answer" section from the dataset)
 
-  - Questions that do not need and answer, as when the medical student makes a comment. For example, in a relatively important proportion of the utterances given by the doctor or medical student       there are expressions like "Thank you", "OK", "Now I will check your temperature" that do not require an answer from the patient. It is important that these types of sentences are understood       and detected, because otherwise a standard QA system would try to give an answer for every question it is being asked, and that would be incorrect for these types of utterances. (This type         have an "I" in the "answer" section from the dataset. This "I" is the first letter of all the reports and it is a way to distinguise the from the other two type of question.)
+  - Questions that do not need and answer, as when the medical student makes a comment. For example, in a relatively important proportion of the utterances given by the doctor or medical student there are expressions like "Thank you", "OK", "Now I will check your temperature" that do not require an answer from the patient. It is important that these types of sentences are understood and detected, because otherwise a standard QA system would try to give an answer for every question it is being asked, and that would be incorrect for these types of utterances. (This type have an "I" in the "answer" section from the dataset. This "I" is the first letter of all the reports and it is a way to distinguise the from the other two type of question.)
 
 In the following table you can find the distribution of each type of question:
 
@@ -37,13 +36,13 @@ In the following table you can find the distribution of each type of question:
 
 The corpus has the next attributes: Starting with the “data” is the part where it is all the information of the clinical reports, questions and answers. Continuing with the “paragraphs” section, we find the clinical report, question and answers of a specific patient. Inside that section we have the “context”, which is the clinical report itself and for the other side the “qas”, which is the part that contains all the information related with the question and answers. From the questions we can get the question text itself (“question”), an identifier (“id”), the flag that determines if a question is possible to answer to the question with the context or not (“is impossible”). And the “answer” element is comprised by the the text of the actual answer (“text”) and the span where the text begins (“answer start”). To end, we have less relevant attribute which is the document id or title (“title”), this attribute is not taken into account by the model.
 
-Moreover, the QA corpus also contains different format of question: the one that has the question itself, other one with the question and the intention of the doctor together and the last one that only has the intention of the doctor itself.
+Moreover, the QA corpus also contains different format of question: the one that has the only the question itself, other one with the question and the intention of the doctor together and the last one that only has the intention of the doctor.
 
 
-[### Code to experiment with the QA model](https://github.com/huggingface/transformers/blob/main/examples/legacy/question-answering/run_squad.py)
+[Code to experiment with the QA model](https://github.com/huggingface/transformers/blob/main/examples/legacy/question-answering/run_squad.py)
 
-##  Intent classification corpus
-
+##  Intent corpus
+<a id="Intent"></a>
 This corpus is an adaptation from the French corpus of the "A French Medical Conversations Corpus Annotated for a Virtual Patient DialogueSystem" [(Laleye et al. (2020))](#Laleye) paper. The corpus
 was automatically translated from French to Spanish and it was manually corrected, giving 2691 utterances where 145 different intent types were identified and from them 11 were considered main categories. They were classified in a hierarchical way from more generic to more specific. The deepest brach of the hierachy could arrive 4 leves of subcategories, counting the main category. The corpus is divided in three different sets in a stratified way, 80% for training containing 2079 utterances and 10% for development and test with 306 utterances each.
 
