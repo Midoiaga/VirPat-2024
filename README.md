@@ -54,7 +54,7 @@ The following tables explains each intent with a descrition, example and amount:
 |----------------------|------------------------------------------------------------------------------------|----------------------------------------|--------------------------------------|
 | afirmar (affirm)              | When the doctor confirms the patient's response.                                   | Yes / Very good                         | 13                                   |
 | despedida (goodbye)            | When the doctor wants to end the conversation.                       | Good bye / Good bye!                        | 6                                    |
-| estado  (state)              | When the doctor asks how the patient is doing in general.                           | ow are you / how are you?              | 7                                    |
+| estado  (state)              | When the doctor asks how the patient is doing in general.                           | How do you feel? / How are you?              | 7                                    |
 | motivo_de_consulta (reason for consultation)  | When the doctor asks the patient why he has come to doctor.                        | Why are you coming? / What brings you here?  | 61                                   |
 | otros (others)               | Which are not part of other _intent_ groups, because they have nothing to do with the topic. | I ask for your health card           | 5                                    |
 | personal (personal)            | When the doctor asks for the patient's lifestyle and personal data.            | ¿Do you drink alcohol? / What is your name?      | 499                                  |
