@@ -1,6 +1,6 @@
 
 # VirPat-2024
-In this repository you will find the corpora and code used in the following paper: ____PAPER____HERE____(It will be posted when it is available)
+In this repository you will find the corpora and code used in the following paper: [https://aclanthology.org/2024.lrec-main.182/](https://aclanthology.org/2024.lrec-main.182/)
 
 ## Introduction
 
