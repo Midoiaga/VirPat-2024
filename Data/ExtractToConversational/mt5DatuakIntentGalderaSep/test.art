@@ -1,0 +1,631 @@
+despedida </s> Adiós. </s> I
+sintoma_paciente_localizacion_describir </s> Vale, así que durante unos meses, rigidez por las mañanas. Así que le duele la espalda, ¿dónde diría que le duele exactamente? </s> desde la mitad de la espalda hasta la parte baja
+sintoma_paciente_describir </s> Ok y que tipo de dolor diría que es, ¿es como un dolor sordo? ¿Es un dolor agudo y punzante? ¿Cómo lo describiría? </s> sordo
+afirmar </s> Ya veo. </s> I
+saludo </s> Buenos días, señor. </s> I
+sintoma_paciente_localizacion_si_o_no </s> Vale, ¿hasta el cuello, supongo, y hasta la parte baja de la espalda? </s> hasta la parte baja
+sintoma_paciente_antecedentes_si_o_no </s> Ok, ¿y ha tenido algún episodio previo similar a este? </s> tiene dolores ocasionales en las manos y en la rodilla derecha
+sintoma_paciente_inicio </s> Vale, ¿y cuándo empezó esto? </s> hace 4-5 meses
+sintoma_paciente_cambio_describir </s> Ok, ¿y ha intentado algo que le haya ayudado a aliviar algo del dolor? ¿Algún medicamento o algo? </s> Ha probado Tylenol y Advil
+sintoma_paciente_aparicion_describir </s> Ok, entonces fue progresivo. ¿No apareció de repente en algún momento? </s> empeora progresivamente
+sintoma_paciente_describir </s> Dolor sordo, vale. Vale, y en una escala de 0 a 10, siendo 0 el menor dolor que ha sentido en su vida y 10 el peor, ¿en cuánto lo calificaría? </s> califica el dolor de 4-5 en una escala de 10
+sintoma_paciente_inicio </s> Ok, ¿y cuando empezaron esos dolores? </s> hace 6 meses
+sintoma_paciente_antecedentes_si_o_no </s> Vale, de acuerdo. Y no, no ha tenido ningún traumatismo recientemente, ¿verdad? </s> no ha tenido traumatismos recientes
+sintoma_paciente_duracion </s> Bien, ¿aproximadamente cuánto tiempo diría que pasa desde que se levanta hasta que desaparecen la rigidez y el dolor? </s> hasta 30-60 minutos después de levantarse
+sintoma_paciente_cambio_describir </s> Vale, ¿y su dolor empeora cuando se levanta por la mañana o a medida que avanza el día? </s> empeora por la mañana
+sintoma_paciente_si_o_no </s> ¿Algún cansancio o malestar? </s> dice tener fatiga y malestar
+sintoma_paciente_si_o_no </s> Vale, ya veo. Aparte de eso, ¿ha notado algún tipo de sarpullido o cambios en la piel o en las uñas? </s> Tampoco tiene sarpullidos
+sintoma_paciente_cambio_describir </s> Ok, y para su dolor, ¿hay algún tipo de factores que empeoren el dolor, como agacharse o estar de pie o tumbarse cualquier cosa que empeore su dolor? </s> empeora por la mañana hasta 30-60 minutos después de levantarse
+sintoma_paciente_si_o_no </s> Ok ¿y ninguna fiebre o escalofríos? </s> No tiene fiebre, escalofríos
+sintoma_paciente_si_o_no </s> Ok, ¿alguna dificultad para respirar? </s> No presenta ninguna dificultad para respirar
+sintoma_paciente_si_o_no </s> Ok, ¿algún sudor nocturno? </s> No tiene fiebre, escalofríos ni sudores nocturnos
+sintoma_paciente_describir </s> ¿Algún cambio en sus movimientos intestinales o patrones urinarios? </s> No ha habido cambios en sus movimientos intestinales o patrones urinarios
+sintoma_paciente_si_o_no </s> Ok, ¿alguna debilidad muscular? </s> No ha tenido problemas oculares, entumecimiento ni debilidad muscular
+personal_fisico_peso_peso </s> Bien, ¿ha notado algún cambio en su apetito o en su peso? </s> tampoco cambios en el apetito o el peso
+sintoma_paciente_duracion </s> Ok, ¿y por cuánto tiempo ha tenido esto? </s> empeora progresivamente
+sintoma_paciente_si_o_no </s> Ok, ¿ha notado algún tipo de entumecimiento o sensación de hormigueo en sus extremidades específicamente como su espalda y sus piernas? </s> No ha tenido problemas oculares, entumecimiento
+sintoma_paciente_describir </s> Ok, ¿y ha notado alguna dificultad o cambio con su visión o algún problema ocular? </s> No ha tenido problemas oculares
+vida_sexual_si_o_no </s> Ok, y aparte de eso, ¿actualmente es sexualmente activo? </s> Es sexualmente activo
+sintoma_paciente_antecedentes_si_o_no </s> Ok, ¿y ha estado enfermo últimamente con alguna infección viral o bacteriana? </s> tuvo diarrea hace unos meses
+afirmar </s> Ok. </s> I
+tratamiento_operacion_describir </s> Ok, ¿y ha tenido alguna hospitalización o cirugías previas? </s> No tiene hospitalizaciones ni cirujías previas
+afirmar </s> Vale. </s> I
+sintoma_paciente_antecedentes_si_o_no </s> Bien, y su madre, tenía psoriasis. ¿Alguna vez tuvo dolores articulares junto con la psoriasis? </s> La madre del paciente tiene psoriasis y problemas con la piel
+personal_adiccion_fumar_si_o_no </s> Ok, ¿y fuma? </s> no fuma
+personal_adiccion_otros_si_o_no </s> Vale, ¿y consume alguna droga recreativa como la marihuana? </s> Consume marihuana 1-2 veces por semana
+sintoma_paciente_describir </s> Vale, de acuerdo, esas eran algunas de las preguntas que tenía. Ahora voy a hacerle rápidamente algunas preguntas específicas. ¿Ha notado algún tipo de hinchazón en las zonas que le duelen o enrojecimiento o algo parecido? </s> Tampoco tiene sarpullidos, rojeces, hinchazones
+sintoma_paciente_describir </s> Vale, bien, ¿y su compañera está bien o tiene algún síntoma? </s> Su entorno no parece tener síntomas similares
+sintoma_paciente_antecedentes_si_o_no </s> Vale, ¿y alguno de los dos tiene antecedentes de alguna ITS? </s> sin historial de ITS
+sintoma_paciente_describir </s> Vale, de acuerdo, y por lo demás, ¿está sano en general o tiene alguna enfermedad? </s> Tiene asma
+tratamiento_medicacion_describir </s> Ok, ¿y usa alguna medicación para el asma? </s> Usa el inhalador azul ocasionalmente
+sintoma_paciente_alergia_describir </s> Ok y ¿tiene alguna alergia a algún medicamento o a algún factor ambiental? </s> tiene alergias ambientales
+sintoma_familia_describir </s> Ok ¿algún antecedente familiar de alguna condición médica, alguna condición autoinmune o alguna condición musculoesquelética? </s> La madre del paciente tiene psoriasis y problemas con la piel
+personal_trabajo_si_o_no </s> Vale, y ahora mismo, ¿trabajas? </s> trabaja en un banco
+personal_otros_describir </s> Bien, ¿usted trabaja y cómo vive? </s> vive con su novia en un piso en la ciudad
+personal_adiccion_alcohol_si_o_no </s> Vale, ¿y bebe alcohol? </s> bebe ocasionalmente
+afirmar </s> De acuerdo, sí, me pondré en contacto con usted en breve. </s> I
+afirmar </s> De acuerdo, cuídese. </s> I
+personal_datos_edad </s> Sí, así que definitivamente esto parece que empezó hace como 3 meses o seis meses, y ha estado pasando por la mañana. ¿Y cuántos años dijo que tenía? </s> 26 años
+personal_datos_direccion </s> Vale, ¿y dónde vives y con quién vives? </s> Vive en una casa con su marido y sus dos hijas
+psiquiatria </s> OK, um ¿alguna preocupación por las ITS? </s> Poca probabilidad de ITS
+sintoma_paciente_localizacion_si_o_no </s> OK, OK. Um y luego voy a hacer que palpes ciertas áreas de ese brazo. Empecemos por arriba, cuando presionas los omóplatos o en la parte superior del brazo, donde el brazo se conecta con el hombro, ¿te duele ahí? </s> No tiene dolor en los omóplatos
+sintoma_paciente_describir </s> ¿Qué tal cuando flexionas la muñeca y la extiendes? </s> No siente dolor en la extensión y flexión de hombro, codo y muñeca
+sintoma_paciente_si_o_no </s> Uh ¿fiebre o escalofríos? </s> No hay pérdida de peso, escalofríos, fiebre
+sintoma_paciente_si_o_no </s> OK, ¿y cambios en los movimientos intestinales? </s> No ha tenido cambios en los movimientos intestinales
+sintoma_paciente_describir </s> OK, um ¿estás por lo demás sana? ¿Tienes alguna enfermedad de larga duración? </s> sufre hipotiroidismo, toma tiroxiona y Synthroid. Tiene sobrepeso, clase uno de obesidad probablemente
+sintoma_familia_si_o_no </s> OK, ¿historial familiar de afecciones pulmonares o cardíacas? </s> su padre tiene el colesterol alto
+sintoma_familia_describir </s> OK, um ¿algún problema neural, neurológico o musculoesquelético en la familia? </s> Su abuelo tuvo un derrame cerebral cuando tenía 70 años y su padre tiene el colesterol alto. Algunos familiares padecen osteoartritis
+sintoma_paciente_describir </s> OK, um ¿qué hay de los cánceres? </s> No hay cánceres
+personal_adiccion_alcohol_si_o_no </s> Vale, ¿y alcohol? ¿Bebes? </s> Bebe alcohol muy ocasionalmente
+personal_viajes_si_o_no </s> OK, ¿qué hay de los viajes? </s> No ha estado con nadie enfermo ni ha viajado fuera
+sintoma_paciente_si_o_no </s> No, OK. Y, ¿parece estar más atrofiado o hay alguna deformidad o cambio en la piel? </s> presenta algo de deformidad en la masa muscular del pulgar
+sintoma_paciente_localizacion_describir </s> OK. Entonces no hay dolor en el proceso del acromion o la escápula. Um ¿algún dolor donde están tus bíceps? </s> No tiene dolor en los omóplatos, bíceps
+sintoma_paciente_capacidad_si_o_no </s> OK. Um y voy a hacer que um endereces el brazo y flexiones el hombro y extiendas el hombro, ¿te duele eso? </s> No siente dolor en la extensión y flexión de hombro
+sintoma_paciente_si_o_no </s> Entonces como al revés pero con las partes exteriores de las manos tocándose. Um y luego voy a pedirte que mantengas los brazos así um durante unos 60 segundos. ¿Sientes algún hormigueo, entumecimiento o dolor en los dedos? </s> Siente hormigueo si junta los dos exteriores de las manos y los mantiene un rato en esa posición
+sintoma_paciente_describir </s> Vale, ¿y está siempre ahí? ¿Es persistente o va y viene? </s> van y vienen
+motivo_de_consulta </s> Buenos días, señora. ¿Qué te trae por aquí? </s> Entumecimiento, hormigueo y sensación de quemazón en la mano izquierda
+sintoma_paciente_inicio </s> En tu mano izquierda, OK. Y perdona, ¿cuándo has dicho que empezó? </s> hace cuatro o cinco meses
+sintoma_paciente_cambio_describir </s> OK ¿y qué lo hace mejor o peor? </s> a menudo se alivian al no utilizar la mano afectada
+afirmar </s> OK. </s> I
+sintoma_paciente_describir </s> No, vale. Y uhm si tuvieras que describir la calidad de cómo se siente, ¿lo hace, es doloroso, es sensible, o es sólo entumecido y hormigueo, algo así como cuando se duerme el pie? </s> a veces va acompañado de ardor y en ocasiones es intenso
+tratamiento_operacion_si_o_no </s> Sí, de acuerdo, ¿has probado con compresas frías, cremas tópicas? ¿Algo así? </s> Ha probado Advil y Tylenol
+sintoma_paciente_describir </s> Bien, y del 1 al 10, siendo 10 el peor dolor, ¿cómo de malo es este dolor? </s> 6/10
+sintoma_paciente_cambio_si_o_no </s> Vale, entonces ha empeorado, ¿dices que en las últimas semanas? </s> ha empeorado en las últimas semanas
+sintoma_paciente_antecedentes_si_o_no </s> OK, OK. ¿Has experimentado esto antes o es la primera vez que lo experimentas? </s> Nunca había sentido un dolor parecido antes
+sintoma_paciente_cambio_describir </s> Oh, ya veo, vale. De acuerdo, ¿sientes que los síntomas han empeorado en las últimas semanas o siguen igual? </s> En las últimas semanas no han empeorado los síntomas
+sintoma_paciente_si_o_no </s> OK, bien ¿y tienes algún entumecimiento u hormigueo en alguna otra parte del cuerpo? </s> se presentan sobre todo en los tres primeros dedos (del pulgar al corazón), con cierta afectación del dedo anular
+sintoma_paciente_describir </s> Vale, ¿los tres primeros dedos son el pulgar, el índice y el dedo corazón? ¿O del meñique al dedo corazón? </s> del pulgar al corazón
+sintoma_paciente_si_o_no </s> OK, OK, ¿y alguna confusión o pérdida de memoria? </s> no ha sufrido confusiones, pérdidas de memoria
+sintoma_paciente_si_o_no </s> Y el dedo anular, vale. </s> I
+sintoma_paciente_si_o_no </s> ¿Dolores de cabeza? </s> no ha sufrido confusiones, pérdidas de memoria, ni dolores de cabeza
+sintoma_paciente_si_o_no </s> OK, um bien, entonces um ¿alguna debilidad en los brazos o sientes que todavía puedes usar sus brazos correctamente? </s> Ha habido dificultades con los movimientos motores finos, como abrir tarros
+personal_fisico_peso_cambio </s> OK, um ¿qué hay de la pérdida de peso? </s> No hay pérdida de peso
+sintoma_paciente_si_o_no </s> ¿Cambios en la visión, audición, olfato o gusto? </s> Sin cambios sensoriales
+sintoma_paciente_describir </s> OK, ¿qué tal um tos? </s> Sin cambios sensoriales, tos
+sintoma_paciente_si_o_no </s> ¿Uh erupciones? </s> No hay pérdida de peso, escalofríos, fiebre o erupciones
+sintoma_paciente_si_o_no </s> OK, um ¿sibilancias o falta de aliento? </s> Sin cambios sensoriales, tos, sibilancias o falta de aliento
+sintoma_paciente_si_o_no </s> OK. ¿Dolor en el pecho o palpitaciones? </s> Tampoco dolor en el pecho, ni palpitaciones
+sintoma_paciente_si_o_no </s> OK, bien. ¿Alguna náusea o vómito? </s> No ha tenido cambios en los movimientos intestinales, náuseas, vómitos
+tratamiento_medicacion_describir </s> Vale, ¿y tomas alguna medicación para el hipotiroidismo? </s> toma tiroxiona y Synthroid
+sintoma_paciente_si_o_no </s> OK, ¿algún cambio en la micción? </s> No ha tenido cambios en los movimientos intestinales, náuseas, vómitos, ni cambio en la micción
+tratamiento_medicacion_si_o_no </s> Sí, claro. Um bien, y entonces ¿estás al día con tus vacunas? </s> Está al día con las vacunas
+sintoma_paciente_alergia_describir </s> No, OK. Um ¿alguna alergia? </s> No padece de alergias
+personal_adiccion_alcohol_duracion </s> OK, y um ¿durante cuánto tiempo lo has estado haciendo? </s> durante los últimos 10 años
+personal_adiccion_otros_describir </s> Vale, vale, eso está bien. Si necesitas algún recurso, tenemos algunos a los que podemos remitirte. ¿Consumes marihuana de alguna forma? </s> No consume ningún tipo de droga
+personal_adiccion_otros_si_o_no </s> No, OK. Cualquier droga recreativa. </s> I
+personal_adiccion_fumar_si_o_no </s> Ningún cáncer, OK. Um bien y entonces, ¿fumas? </s> Fuma
+sintoma_entorno_si_o_no </s> OK, um y ¿has estado en contacto con alguien enfermo recientemente? </s> No ha estado con nadie enfermo
+sintoma_paciente_si_o_no </s> No, OK. ¿Y en los codos? </s> No tiene dolor en los omóplatos, bíceps, codos
+sintoma_paciente_describir </s> ¿Qué tal cuando um palpas las muñecas, ambos lados, medial y lateral? </s> No siente dolor en la muñeca
+sintoma_paciente_aparicion_si_o_no </s> ¿Que tal cuando flexionas el codo y lo extiendes? </s> No siente dolor en la extensión y flexión de hombro, codo
+sintoma_paciente_describir </s> Sí, no hay problema </s> I
+sintoma_paciente_localizacion_describir </s> OK, ¿y dónde está localizado este dolor? </s> se localiza en el lado izquierdo del pecho
+motivo_de_consulta </s> ¿Qué le ha traído hoy aquí? </s> dolor torácico
+sintoma_paciente_inicio </s> Bien, ¿y cuándo empezó este dolor en el pecho? </s> comenzó anoche (hace 8 horas)
+personal_datos_edad </s> Bien, antes de empezar, ¿podría recordarme su sexo y edad? </s> Varón, 39 años
+sintoma_paciente_duracion </s> OK, y, ¿cuánto tiempo ha estado así, si empezó anoche? </s> hace 8 horas
+sintoma_paciente_describir </s> Bien, ¿y cómo describiría el dolor? La gente a veces usa palabras como agudo, ardiente, doloroso. </s> es agudo
+sintoma_paciente_describir </s> OK. ¿Ha sido constante durante ese tiempo, o ha cambiado? </s> ha sido constante desde entonces
+sintoma_paciente_localizacion_si_o_no </s> OK, ¿el dolor se irradia a alguna parte? </s> no se irradia
+sintoma_paciente_cambio_describir </s> OK, ¿y hay alguna otra cosa que empeore el dolor además de acostarse? </s> Acostarse y respirar profundamente empeora el dolor
+sintoma_paciente_cambio_si_o_no </s> OK, entonces ¿dice que acostarse empeora el dolor? </s> Acostarse y respirar profundamente empeora el dolor
+sintoma_paciente_causa_describir </s> OK. Y cuando el dolor empezó, ¿podría decirme uh, podría pensar en algo que estaba haciendo en ese momento? </s> movía unos muebles
+sintoma_paciente_capacidad_si_o_no </s> OK, entonces ¿nada como respirar profundamente o algo así? </s> Acostarse y respirar profundamente empeora el dolor
+sintoma_paciente_describir </s> OK, y con respecto a la severidad del dolor en una escala del 1 al 10, siendo 10 el peor dolor que has sentido, ¿cuán severo dirías que es el dolor? </s> 7-8 sobre 10
+sintoma_paciente_describir </s> Bien, y con el dolor, ¿tiene algún otro síntoma asociado? </s> también tiene dificultades para respirar y se siente mareado
+sintoma_paciente_si_o_no </s> OK. Uh, ¿ha estado experimentando algo como que el corazón se acelere? </s> siente el corazón acelerado
+sintoma_paciente_si_o_no </s> OK. ¿Ha tenido alguna pérdida de consciencia? </s> No ha sufrido pérdidas de consciencia
+tratamiento_medicacion_antecedentes </s> OK. ¿Y ha sudado algo? </s> suda al tener problemas respiratorios
+sintoma_paciente_si_o_no </s> OK, ¿ha tenido alguna náusea o vómito? </s> Tampoco ha tenido síntomas infecciosos, náuseas o vómitos
+sintoma_paciente_si_o_no </s> OK, ¿ha estado teniendo problemas para respirar desde que empezó el dolor? </s> tiene dificultades para respirar
+sintoma_paciente_si_o_no </s> OK, ¿algún dolor abdominal? </s> No tiene fiebre, ni dolores abdominales
+sintoma_paciente_si_o_no </s> ¿Algún problema urinario? </s> Tampoco tiene problemas urinarios
+sintoma_paciente_duracion </s> OK. Um recientemente ¿ha tenido periodos de tiempo donde ha estado como inmovilizado o, no ha sido capaz de moverse mucho? </s> No ha sufrido pérdidas de consciencia, ni periodos donde haya estado inmovilizado
+sintoma_paciente_antecedentes_describir </s> OK. ¿Y se ha sentido enfermo? ¿Algún síntoma infeccioso? </s> Tampoco ha tenido síntomas infecciosos
+sintoma_paciente_si_o_no </s> OK, ¿ha tenido tos? </s> No padece tos
+sintoma_paciente_si_o_no </s> OK, ¿ha tenido sibilancias con su dificultad para respirar? </s> No presenta sibilancias
+sintoma_paciente_si_o_no </s> ¿O problemas intestinales? </s> Tampoco tiene problemas urinarios o intestinales
+sintoma_paciente_si_o_no </s> OK. ¿No ha producido sangre? </s> No padece tos ni ha producido sangre
+sintoma_paciente_describir </s> Muy bien, ¿y entonces que tal alguna erupción o cambios en la piel? </s> Su cuello parece hinchado
+sintoma_paciente_si_o_no </s> No, OK. ¿Y ha tenido sudores nocturnos? </s> No tiene sudores nocturnos
+sintoma_paciente_describir </s> OK, ¿algún cambio en los sonidos respiratorios en absoluto, como alguna respiración ruidosa? </s> ha tendo la respiración más ruidosa al tener problemas de respiración
+sintoma_paciente_si_o_no </s> OK, ¿tiene algún dolor en el cuello? </s> Su cuello parece hinchado, pero no le duele
+tratamiento_operacion_describir </s> OK, ¿alguna hospitalización reciente? </s> no tiene antecedentes médicos, cirugías u hospitalizaciones
+sintoma_paciente_describir </s> OK. ¿Algún trauma en el pecho o en la espalda? </s> No ha sufrido accidentes ni traumas en el pecho o espalda
+tratamiento_historial_describir </s> OK, entonces con respecto a su historial médico, ¿tiene alguna condición médica previa? </s> no tiene antecedentes médicos
+tratamiento_operacion_describir </s> OK, ¿alguna cirugía previa? </s> no tiene antecedentes médicos, cirugías
+sintoma_paciente_alergia_describir </s> Bien, ¿alguna alergia a los medicamentos? </s> tampoco presenta alergia
+tratamiento_medicacion_describir </s> OK, ¿Toma alguna medicación regularmente? ¿Son recetados o de venta libre? </s> no toma medicamentos
+tratamiento_medicacion_si_o_no </s> Bien, ¿alguna vacuna o están al día? </s> está al día con las vacunas
+psiquiatria_estado de animo_describir </s> Vale, ¿y cómo se mantiene económicamente? </s> contable
+psiquiatria </s> Excelente. De acuerdo, ¿podría contarme un poco sobre su situación actual? </s> Vive solo en su apartamento
+personal_adiccion_fumar_cantidad </s> OK, ¿y cuánto fuma? </s> 1 paquete/día
+personal_adiccion_fumar_inicio </s> Vale, ¿desde cuándo fuma? </s> durante 10-15 años
+psiquiatria </s> OK, suena como un trabajo bastante estresante o que puede serlo. ¿Fuma cigarrillos? </s> fuma cigarrillos
+personal_adiccion_fumar_si_o_no </s> OK, ¿y fuma cannabis? </s> consume cannabis ocasionalmente
+personal_adiccion_fumar_cantidad </s> Uh, ¿cuánta marihuana fumaría por semana? </s> 5mg/semana
+personal_adiccion_alcohol_si_o_no </s> OK. ¿Y bebe alcohol? </s> bebe alcohol
+personal_adiccion_otros_si_o_no </s> OK, ¿y usas alguna otra droga recreativa como cocaína, cristal, metanfetaminas, opioides? </s> No consume otras drogas
+personal_dieta_describir </s> OK, uh, sí y um bien, y luego brevemente, ¿podría contarme un poco sobre su dieta y ejercicio? </s> intenta comer sano y hace ejercicio en días alternos
+personal_adiccion_otros_si_o_no </s> OK. ¿Ha usado drogas intravenosas antes? </s> No consume otras drogas
+personal_adiccion_alcohol_cantidad </s> OK. ¿Cuánto alcohol bebe cada semana? </s> 1-2 copas/día, 10 copas/semana
+sintoma_familia_si_o_no </s> Vale, ¿ha tenido alguien de la familia un ataque al corazón antes? </s> El padre del paciente tuvo un infarto a los 45 años
+sintoma_familia_si_o_no </s> Vale, ¿y alguien de la familia tiene problemas de colesterol? </s> El padre del paciente tuvo un infarto a los 45 años y problemas de colesterol
+sintoma_familia_si_o_no </s> Ya veo OK, ¿y alguien en la familia ha tenido un derrame cerebral? </s> No hay antecedentes de accidentes cerebrovasculares
+sintoma_familia_describir </s> OK, ¿y algún cáncer en la familia? </s> No hay antecedentes de accidentes cerebrovasculares ni de cáncer en la familia
+sintoma_paciente_inicio </s> De acuerdo. Y esto, ¿cuándo empezó exactamente? </s> ha empeorado en los últimos 2 días
+sintoma_paciente_si_o_no </s> OK. Um. Muy bien, y uh, ¿no ha sido capaz de caminar entonces? </s> El padre tiene que llevar a cuestas a la hija debido al dolor
+motivo_de_consulta </s> Buenos días, señor. ¿En qué puedo ayudarle? </s> presenta cojera y dolor en la pierna derecha
+sintoma_paciente_describir </s> OK, y um ¿tuvo algún trauma en su cadera derecha o o lastimarse su pierna derecha como una caída o alguna herida? </s> No ha tenido ninguna caída o herida
+sintoma_paciente_si_o_no </s> OK, y. Bien, ¿ha tenido fiebre o escalofríos? </s> La niña ha tenido tos, secreción nasal y posiblemente fiebre
+sintoma_paciente_si_o_no </s> OK, entonces está un poco caliente ahora todavía OK. </s> I
+sintoma_paciente_si_o_no </s> OK. ¿Algún dolor de garganta o tos? </s> No presenta dolor de cabeza, cambio sensorial, dolor de garganta o tos
+sintoma_paciente_si_o_no </s> ¿Ha tenido algún dolor de cabeza? </s> No presenta dolor de cabeza
+sintoma_paciente_si_o_no </s> ¿Ha tenido pérdida de apetito? </s> No ha tenido pérdida de apetito
+sintoma_paciente_antecedentes_si_o_no </s> OK, ¿entonces suena como que ella pudo haber tenido un resfriado la semana pasada y como que la secreción nasal y la tos desaparecieron? </s> han desaparecido todos esos síntomas menos la fiebre
+sintoma_paciente_si_o_no </s> Bien, ¿alguna dificultad para respirar? </s> tampoco dificultad para respirar
+sintoma_paciente_si_o_no </s> ¿Algún sudor nocturno? </s> Sin sudores nocturnos
+sintoma_paciente_describir </s> ¿Algún dolor en el pecho? </s> tampoco dificultad para respirar o dolor en el pecho
+personal_fisico_peso_cambio </s> OK, ¿y ha tenido alguna pérdida de peso inesperada? </s> No ha tenido pérdida de apetito, ni pérdida de peso
+sintoma_paciente_si_o_no </s> ¿Algún dolor abdominal? </s> Sin sudores nocturnos o dolor abdominal
+sintoma_paciente_si_o_no </s> OK, ¿alguna diarrea o estreñimiento o sangre en las heces? </s> Tampoco tiene diarrea, estreñimiento, sangre en las heces
+sintoma_paciente_describir </s> Bien, ¿y algún problema al orinar como dolor o frecuencia? </s> Tampoco tiene diarrea, estreñimiento, sangre en las heces o problemas al orinar
+sintoma_paciente_describir </s> OK, ¿y algún dolor muscular o dolores corporales o cualquier otro dolor en cualquier otra parte? </s> No presenta ningún otro dolor muscular o corporal
+sintoma_paciente_si_o_no </s> OK y y, ¿alguna debilidad muscular? </s> No tiene debilidad muscular
+sintoma_paciente_si_o_no </s> No OK. ¿Y alguna confusión o pérdida de memoria? </s> No presenta confusión ni pérdida de memoria
+sintoma_paciente_antecedentes_describir </s> Vale, ¿le han diagnosticado alguna enfermedad en el pasado? </s> nació con displasia del desarrollo de la cadera
+sintoma_paciente_si_o_no </s> OK, ¿ha tenido algún entumecimiento u hormigueo? </s> No ha tenido entumecimiento u hormigueo
+personal_deporte_si_o_no </s> OK, así que ella está caminando alrededor de un año. </s> I
+tratamiento_medicacion_describir </s> ¿Y, lo siento, ha tomado algo para el, el dolor? </s> No ha tomado nada para el dolor
+psiquiatria </s> ¿Ha tenido alguna otra preocupación sobre ella, ya sea de desarrollo social o físico? </s> Ha tenido un desarrollo social y físico correcto
+tratamiento_historial_describir </s> Vale, eso es genial. Y uh, con respecto a, usted mencionó su cadera lastimada ¿algún otro historial médico? </s> sin otras afecciones médicas
+personal_datos_direccion </s> ¿Puede decirme con quién vive y dónde vive? </s> Vive en una casa cerca de la ciudad con su madre, su padre (George) y su hermano mayor
+sintoma_familia_describir </s> Vale, ¿y algún antecedente familiar de alguna enfermedad autoinmune como el hipotiroidismo? </s> La familia de la niña goza de buena salud en general, sin antecedentes de enfermedades cardíacas o pulmonares, autoinmunes
+sintoma_familia_describir </s> OK. ¿Y alguna condición musculoesquelética o neurológica en la familia? </s> La familia de la niña goza de buena salud en general, sin antecedentes de enfermedades cardíacas o pulmonares, autoinmunes, musculoesqueléticas o neurológicas
+sintoma_paciente_describir </s> OK um y ¿hay algún dolor a la palpación sobre la cadera o o rodilla? </s> No tiene dolor en la palpación
+sintoma_paciente_aparicion_si_o_no </s> OK, ¿y alguna debilidad muscular al probar alrededor de la articulación? </s> No hay debilidad muscular en la zona
+sintoma_entorno_si_o_no </s> Vale, excelente. ¿Y hubo alguna preocupación a lo largo del embarazo, como diabetes gestacional o hipertensión o alguna exposición a infecciones? </s> El problema de la cadera puede ser debido a que en el nacimiento venía de nalgas
+sintoma_paciente_capacidad_si_o_no </s> OK, y sus caderas, ¿fue capaz de caminar después? </s> Se trató con especialistas y consiguió caminar sin problemas
+tratamiento_medicacion_describir </s> Vale, ¿y toma algún medicamento regularmente sin receta o recetado? </s> no está tomando ningún medicamento
+sintoma_paciente_alergia_describir </s> OK, ¿alguna alergia a los medicamentos? </s> No tiene alergias
+tratamiento_operacion_describir </s> De acuerdo, hablaremos más sobre eso. ¿Ha tenido cirugías u hospitalizaciones previas? </s> No ha tenido cirugías ni hospitalizaciones previas
+personal_trabajo_describir </s> Vale, ¿y en qué trabajáis? </s> El padre es abogado y la madre es profesora de música
+sintoma_paciente_si_o_no </s> OK, entonces lo siguiente en um solo el examen. Um cuando mira la cadera derecha ¿ve alguna hinchazón, enrojecimiento? </s> no presenta hinchazón ni enrojecimiento
+sintoma_paciente_si_o_no </s> OK y entonces ¿hay alguna desalineación o deformidad de las articulaciones que usted pueda ver? </s> No presenta desalineación ni deformidad
+sintoma_familia_describir </s> OK um, OK, ¿Y algún antecedente familiar de afecciones cardíacas o pulmonares? </s> La familia de la niña goza de buena salud en general, sin antecedentes de enfermedades cardíacas o pulmonares
+personal_adiccion_fumar_si_o_no </s> Vale, ¿hay alguien que fume en casa? </s> Nadie de la familia fuma
+sintoma_paciente_si_o_no </s> No OK, ¿y hay alguna atrofia muscular alrededor de la cadera? </s> No hay atrofia muscular en la zona
+sintoma_paciente_capacidad_si_o_no </s> OK, ¿y es capaz de mover la cadera en un rango completo de movimiento como flexión, y extensión, abducción, aducción? </s> No hay atrofia muscular en la zona, flexión, extensión, abducción, aducción
+personal_adiccion_alcohol_si_o_no </s> OK. ¿Y bebe algo? </s> bebe alcohol ocasionalmente
+motivo_de_consulta </s> Buenos días, señor. ¿Y qué le trae hoy al servicio de urgencias? </s> presenta dolor lumbar
+sintoma_paciente_cambio_describir </s> OK. Um ¿y cuando empeora? </s> con cualquier movimiento
+sintoma_paciente_describir </s> OK, entonces, e, ¿hizo algún tipo de movimiento? ¿O levantó algo realmente pesado? </s> descargar la compra de su camioneta
+sintoma_paciente_localizacion_describir </s> OK, ¿y donde exactamente es el dolor de espalda? </s> presenta dolor lumbar
+sintoma_paciente_describir </s> OK. Y, um, en una escala de 1 a 10, uh 1 siendo como el menor dolor que usted sintió en su vida, 10 siendo el peor, ¿cuánto calificaría este dolor? </s> es de 2/10 cuando el paciente está sentado y aumenta a 8-9/10 con cualquier movimiento
+sintoma_paciente_describir </s> OK, ¿y qué tipo de dolor está experimentando? ¿Es como un dolor sordo tipo calambre o es más como un dolor agudo o punzante? </s> es una sensación punzante
+sintoma_paciente_inicio </s> Justo en la parte baja de la espalda, OK. ¿Y cuándo empezó este dolor? </s> comenzó ayer
+sintoma_paciente_antecedentes_si_o_no </s> OK y ¿ha tenido este tipo de dolor antes? </s> ha tenido dolores de espalda con anterioridad, pero ninguno tan fuerte
+sintoma_paciente_localizacion_describir </s> OK. ¿Y el dolor va a alguna parte o se queda en la parte baja de la espalda? </s> se irradia a la pierna derecha
+sintoma_paciente_describir </s> OK, ¿y alguna vez ha experimentado algún tipo de trauma en su espalda? ¿Algo como un golpe o una caída, algo así? </s> no ha tenido traumas en su espalda
+sintoma_paciente_describir </s> OK, ¿y es el mismo tipo de dolor o como un dolor punzante que va a su pierna derecha? ¿O es sólo un dolor punzante? </s> es una sensación punzante
+sintoma_paciente_si_o_no </s> OK, ¿alguna fiebre o escalofríos o sudores nocturnos? </s> No presenta fiebre
+sintoma_paciente_describir </s> ¿Algún cambio en sus movimientos intestinales como diarrea, estreñimiento o algo? </s> No tiene cambios en los movimientos intestinales
+sintoma_paciente_describir </s> OK. ¿Algún cambio en su piel? Quiero decir, ¿alguna erupción? </s> Tampoco tiene dolor en las articulaciones ni erupciones
+sintoma_paciente_describir </s> OK. Uh ¿alguna tos nueva o algún síntoma um y secreción nasal o algo así? </s> No presenta fiebre, fatiga ni tos o secreción nasal
+sintoma_paciente_si_o_no </s> OK, ¿algún problema urinario? </s> No tiene cambios en los movimientos intestinales ni problemas urinarios
+sintoma_paciente_describir </s> OK, ¿algún uh síntoma de sentirse muy cansado, fatigado, algo así? </s> No presenta fiebre, fatiga
+sintoma_paciente_si_o_no </s> OK, ¿algún dolor en las articulaciones? </s> Tampoco tiene dolor en las articulaciones
+sintoma_paciente_describir </s> OK, ¿y cómo ha estado su apetito? </s> e mantiene normal
+sintoma_paciente_si_o_no </s> OK. ¿Alguna uh sensación de hormigueo o entumecimiento uh en su espalda o miembros inferiores, en sus piernas? </s> No nota entumecimiento
+sintoma_paciente_aparicion_si_o_no </s> OK, ¿y algún problema de incontinencia, como tener accidentes, por la noche o durante el día? </s> No tiene cambios en los movimientos intestinales ni problemas urinarios
+sintoma_paciente_si_o_no </s> OK. ¿Alguna debilidad muscular? </s> No nota entumecimiento ni debilidad muscular
+sintoma_paciente_antecedentes_describir </s> Vale, de acuerdo, y en cuanto a su historial médico, ¿le han diagnosticado alguna enfermedad como hipertensión, diabetes? </s> Tiene diabetes de tipo 2
+tratamiento_medicacion_describir </s> Vale, ¿y toma alguna medicación para ello? </s> se inyecta insulina
+personal_fisico_peso_cambio </s> ¿Alguna pérdida o ganancia de peso significativa recientemente? </s> Su apetito se mantiene normal, así como su peso
+sintoma_paciente_si_o_no </s> OK, ¿ha tenido algún tipo de disfunción eréctil? </s> No tiene disfunción eréctil
+sintoma_paciente_alergia_describir </s> OK, ¿alguna alergia? </s> No tiene alergias
+tratamiento_medicacion_describir </s> OK, ¿y alguna otra medicación? </s> Ha tomado Tylenol
+sintoma_paciente_cambio_describir </s> ¿Y le ha funcionado? ¿O no ha hecho ninguna diferencia? </s> ha aliviado un poco el dolor
+personal_trabajo_si_o_no </s> OK. Y actualmente, uh ¿trabaja usted? </s> maestro de escuela jubilado
+tratamiento_operacion_describir </s> OK. ¿Alguna cirugía previa? </s> Le han extirpado hemorroides en el pasado
+personal_adiccion_fumar_si_o_no </s> Vale, ¿y fuma? </s> fuma cigarrillos
+sintoma_familia_describir </s> OK, ¿algún historial familiar de alguna condición uh o como algún cáncer? </s> El padre del paciente tuvo cáncer de próstata
+vida_sexual_si_o_no </s> Vale, de acuerdo, sólo tengo unas pocas preguntas más para usted. ¿Es sexualmente activo? </s> es sexualmente activo
+personal_adiccion_fumar_duracion </s> OK, ¿y durante cuánto tiempo ha fumado uh cigarrillos? </s> durante 40 años
+vida_sexual_frecuencia </s> Vale, ¿y con quién es sexualmente activo, alguna pareja nueva? </s> con 2 parejas en el último año
+personal_dieta_describir </s> Bien, ¿y cómo es su dieta regularmente? </s> Tiene una dieta equilibrada
+psiquiatria </s> Y, eh, cuántas, lo siento, adelante. </s> I
+vida_sexual_si_o_no </s> OK, ¿y ha sido sexualmente activo con más de una pareja en el último año? </s> con 2 parejas en el último año
+tratamiento_diagnostico_si_o_no </s> OK. Muy bien, ahora voy a tomar los signos vitales del paciente </s> I
+personal_adiccion_otros_si_o_no </s> 40 años, OK. Y, uh, ¿usa algún tipo de droga recreativa? </s> no consume drogas
+tratamiento_anticonceptivos_si_o_no </s> Vale, ¿y utiliza algún tipo de protección? </s> siempre utiliza preservativos
+afirmar </s> DE ACUERDO. </s> I
+motivo_de_consulta </s> Me gustaría empezar por lo que le ha traído hoy aquí, a la clínica familiar. </s> tose desde hace 2 meses y expulsa un esputo
+sintoma_paciente_duracion </s> Bien, ¿y cuántos meses lleva tosiendo? </s> tose desde hace 2 meses
+tratamiento_medicacion_cuando </s> Vale, ¿y cuándo tomaste los antibióticos? </s> hace un mes
+sintoma_paciente_cambio_si_o_no </s> Vale, ya veo. ¿Y crees que tu tos ha empeorado desde entonces? </s> no ha mejorado
+sintoma_entorno_si_o_no </s> OK, ya veo. ¿Hubo algo que ocurriera en esa época? ¿Algún entorno nuevo al que estuvieras expuesto? </s> comenzó tras un viaje a la India
+personal_fisico_altura </s> Mhmm. </s> I
+sintoma_paciente_cambio_describir </s> OK. ¿Algo que le haga desaparecer la tos ahora que lo ha probado? </s> no ha mejorado con los antibióticos prescritos (azitromicina)
+sintoma_paciente_si_o_no </s> OK. Además del esputo teñido de dolor, ¿alguna vez ha tosido sangre, como sangre roja? </s> expulsa un esputo amarillo verdoso, a veces rosado
+personal_fisico_peso_cambio </s> ¿Siente que ha perdido peso recientemente? </s> presenta una ligera pérdida de peso
+sintoma_paciente_antecedentes_describir </s> Bien. En cuanto a su historial médico, ¿le han diagnosticado alguna enfermedad? </s> tiene hipertensión arterial, diabetes de tipo 2 y colesterol alto
+tratamiento_medicacion_describir </s> Ya veo. ¿Y está tomando alguna medicación para alguno de ellos? </s> toma medicamentos para la tensión arterial, la diabetes y rosuvastatina
+tratamiento_operacion_describir </s> OK, ¿alguna hospitalización previa? </s> No hay hospitalizaciones ni cirugías previas
+sintoma_paciente_alergia_describir </s> Vale, no te preocupes. ¿Y sabes si eres alérgico a algún medicamento o tienes alguna alergia ambiental? </s> tiene alergia a la penicilina
+tratamiento_operacion_describir </s> OK, ¿alguna cirugía? </s> No hay hospitalizaciones ni cirugías previas
+sintoma_familia_si_o_no </s> OK, ¿y en tu familia alguien ha tenido cáncer o ha muerto de un ataque al corazón? </s> La madre de la paciente tuvo un infarto
+sintoma_paciente_localizacion_si_o_no </s> Así que la fibrosis pulmonar es una condición en su pulmón donde usted comienza a tener como estos nódulos. </s> I
+personal_adiccion_fumar_inicio </s> Vale, ¿y desde cuándo fumas? </s> desde hace aproximadamente 30 años
+personal_adiccion_fumar_si_o_no </s> OK. ¿Y actualmente fuma? ¿Cigarrillos? </s> fumador
+personal_adiccion_otros_si_o_no </s> Ya veo, ¿y consumes alguna droga recreativa como marihuana o cocaína? </s> No usa drogas recreativas
+personal_adiccion_alcohol_cantidad </s> Vale, ¿y qué hay del alcohol? ¿Bebe alcohol? </s> No usa drogas recreativas ni consume alcohol
+saludo </s> De nada. </s> I
+tratamiento_operacion_resultados </s> De acuerdo, bien, sí, bien, después de los resultados de esas pruebas, le veremos en la próxima cita para el seguimiento. </s> I
+personal_adiccion_fumar_si_o_no </s> VALE, VALE. ¿Fuma? </s> fumador
+sintoma_paciente_inicio </s> Vale, ¿y cuándo empezó la tos? </s> ha estado presente durante las últimas 2 semanas
+sintoma_paciente_duracion </s> Bien, ¿cuánto dura cuando lo tienes? ¿O siempre está ahí? </s> con episodios que duran de 10 a 15 minutos cuando empeora
+sintoma_entorno_si_o_no </s> OK, ¿alguien a su alrededor ha estado enfermo? </s> Algunos de los compañeros de habitación tienen tos y uno tiene dificultad para respirar
+sintoma_paciente_cambio_describir </s> OK, ¿y siente que está empeorando, mejorando, ha cambiado desde que empezó a tener estos síntomas? </s> empeora
+sintoma_paciente_frecuencia </s> OK, y usted mencionó fiebre y algunos sudores nocturnos. ¿Con qué frecuencia está teniendo estos sudores nocturnos y se sienten como escalofríos? </s> Cada dos noches
+sintoma_paciente_describir </s> OK, ¿y por lo demás está sano? ¿Tiene alguna enfermedad? </s> ha tenido una infección torácica previa
+tratamiento_medicacion_si_o_no </s> OK, ¿estás al día con todas tus vacunas? </s> Tiene todas las vacunas al día
+sintoma_paciente_describir </s> OK, OK, ¿y ellos también están enfermos o no? </s> Algunos de los compañeros de habitación tienen tos y uno tiene dificultad para respirar
+personal_adiccion_alcohol_si_o_no </s> OK, eso es, ha pasado un tiempo entonces. ¿Y bebe alcohol? </s> no bebe alcohol
+sintoma_paciente_fiebre_si_o_no </s> OK. ¿Y entonces la fiebre? </s> ha estado presente durante las últimas 2 semanas
+sintoma_paciente_inicio </s> OK, entonces la disnea empezó hace seis semanas, ¿correcto? </s> durante las últimas 6-8 semanas
+motivo_de_consulta </s> ¿Qué le trae hoy por aquí? </s> tiene disnea
+sintoma_paciente_cambio_describir </s> Vale, claro. ¿Y hay cosas que lo hacen mejor o peor? </s> a veces se exacerba con el esfuerzo
+sintoma_paciente_frecuencia </s> OK, OK um y usted, ¿con qué frecuencia tiene esta disnea? </s> presente la mayor parte del tiempo, con episodios que duran de 10 a 15 minutos cuando empeora
+afirmar </s> OK. </s> I
+sintoma_paciente_describir </s> No OK, ¿qué hay de los cánceres? </s> No hay cánceres, afecciones pulmonares o cardíacas en la familia del paciente
+vida_sexual_si_o_no </s> VALE, VALE. ¿Eres sexualmente activo? </s> no es sexualmente activo
+sintoma_paciente_describir </s> ¿Entonces ellos también tienen síntomas similares a los tuyos? </s> Algunos de los compañeros de habitación tienen tos y uno tiene dificultad para respirar
+afirmar </s> DE ACUERDO. </s> I
+sintoma_paciente_si_o_no </s> OK, sí, y la tos, ¿está tosiendo sangre? </s> A veces también tose esputo de color rosado
+sintoma_familia_describir </s> OK. ¿Y hay algún antecedente familiar de afecciones pulmonares o cardíacas? </s> No hay cánceres, afecciones pulmonares o cardíacas en la familia del paciente
+sintoma_paciente_describir </s> OK, ¿y de qué color es esta mugre? </s> esputo verde o amarillo
+motivo_de_consulta </s> ¿Puede contarme un poco qué le trae por aquí hoy? </s> tiene una tos
+sintoma_paciente_describir </s> OK, y uh, ¿qué tipo de tos es, como una tos seca? ¿O es más como una tos productiva? </s> productiva
+sintoma_paciente_inicio </s> OK. ¿Y cuándo empezó esto? </s> en los últimos años
+sintoma_paciente_describir </s> OK, ¿y su tos es constante o aparece y desaparece? </s> empeora por la mañana
+sintoma_paciente_causa_describir </s> OK, ¿y hay algo que le provoque tos? </s> empeora por la mañana y con las respiraciones profundas
+sintoma_paciente_cambio_si_o_no </s> OK. Y usted mencionó que ha estado teniendo esta tos durante los últimos años. ¿Ha empeorado? </s> ha ido empeorando en los últimos años
+sintoma_paciente_cambio_describir </s> OK ¿Y hay algo que haga o haya probado que haya hecho que su tos mejore o empeore? </s> empeora por la mañana y con las respiraciones profundas
+sintoma_paciente_si_o_no </s> OK, um y aparte de eso, ¿ha tenido algún otro síntoma, como secreción nasal, dolor de garganta, dificultad para respirar, algo así? </s> presenta fatiga y falta de aliento con el esfuerzo
+sintoma_paciente_describir </s> OK, ¿algún aumento de la fatiga o simplemente se siente cansado en general? </s> presenta fatiga
+sintoma_paciente_describir </s> OK, ¿y qué hay de la falta de aliento? </s> presenta fatiga y falta de aliento
+sintoma_paciente_si_o_no </s> Bien. ¿Y le han diagnosticado alguna enfermedad, como hipertensión, diabetes? </s> tiene hipertensión arterial
+tratamiento_medicacion_describir </s> Bien, ¿y toma algún medicamento para la tensión? </s> toma Lisinopril
+tratamiento_operacion_describir </s> OK y ¿ha tenido alguna otra cirugía aparte de su cesárea? </s> ha tenido una cesárea
+sintoma_familia_si_o_no </s> OK, en términos de su historia familiar ¿ha tenido alguien problemas cardiovasculares o algún cáncer? </s> El padre de la paciente sufrió un infarto
+personal_adiccion_alcohol_si_o_no </s> Vale, ¿y alcohol? </s> consumo de alcohol
+personal_adiccion_fumar_si_o_no </s> ¿Fuma usted algo? </s> fuma cigarrillos
+personal_adiccion_fumar_cantidad </s> Vale, ¿y cuánto fumas al día de media? </s> consumiendo de uno a dos paquetes al día
+afirmar </s> De acuerdo, de acuerdo </s> I
+motivo_de_consulta </s> Gracias a ti </s> I
+sintoma_paciente_si_o_no </s> Bien, ¿has notado alguna hinchazón en el cuello? </s> Tiene dos bultos en el lado derecho del cuello debajo de la mandíbula
+motivo_de_consulta </s> Buenos días, señora. ¿En qué puedo ayudarte hoy? </s> presenta dolor de garganta
+sintoma_paciente_cambio_describir </s> Bien, y desde que empezó el dolor de garganta hace 5 días, ¿ha mejorado, empeorado o sigue igual? </s> empeorando
+sintoma_paciente_capacidad_si_o_no </s> OK, ¿has sido capaz de mantener el apetito? </s> Ha perdido el apetito
+sintoma_paciente_si_o_no </s> OK. ¿Son dolorosos? </s> no son dolorosos
+sintoma_paciente_si_o_no </s> Ya veo, OK. Lo veremos en el examen físico. OK, y uh, ¿y has mencionado que también has estado muy cansada estos últimos días? </s> Ha experimentado fatiga
+sintoma_paciente_localizacion_describir </s> Bien, ¿algún área en particular que te duela? </s> Ha tenido dolor general
+sintoma_paciente_describir </s> OK. ¿Y has estado experimentando alguna dificultad, o perdón, has estado experimentando alguna tos? </s> No ha experimentado tos
+sintoma_paciente_describir </s> Muy bien, ¿que tal enrojecimiento de los ojos o secreción nasal, o? </s> No ha tenido enrojecimiento de los ojos o secreción nasal
+sintoma_paciente_si_o_no </s> OK, y entonces has estado experimentando fatiga. ¿Has tenido dolores de cabeza? </s> No ha tenido dolores de cabeza
+sintoma_paciente_si_o_no </s> OK, ¿has tenido sibilancias? </s> No expresa haber tenido sibilancias
+sintoma_paciente_si_o_no </s> OK, uhm, y, ¿has tenido algún mareo o, o vértigo? </s> No presenta meros o vértigos
+sintoma_paciente_describir </s> Bien, ¿y algún dolor en el pecho? </s> Tampoco ha tenido dolor en el pecho
+sintoma_paciente_describir </s> OK, ¿qué hay de falta de aliento o problemas para respirar? </s> No presenta falta de aliento o problemas para respirar
+sintoma_paciente_si_o_no </s> ¿Has tenido algún dolor abdominal? </s> Ha tenido molestia en la zona abdominal
+sintoma_paciente_si_o_no </s> ¿Has tenido palpitaciones o has sentido que el corazón se acelera? </s> Tampoco ha tenido dolor en el pecho ni palpitaciones o aceleración del corazón
+sintoma_paciente_si_o_no </s> De acuerdo, ¿también has notado esto en los últimos días? </s> le lleva afectando desde hace 1 día
+sintoma_paciente_describir </s> OK, y, y ¿cómo describirías este dolor y cuánto tiempo ha durado? </s> le lleva afectando desde hace 1 día
+sintoma_paciente_si_o_no </s> OK. ¿Has tenido náuseas o vómitos? </s> No presenta náuseas o vómitos
+sintoma_paciente_si_o_no </s> Vale, ¿has tenido sudores nocturnos esta semana o han durado más? </s> He tenido escalofríos y sudores nocturnos durante la semana
+sintoma_paciente_cambio_describir </s> Ya veo, ¿hay algo que haga que empeore esa sensación o que la mejore? </s> Se acuesta del lado derecho para poder lidiar con el dolor
+sintoma_paciente_si_o_no </s> ¿Y diarrea? </s> Nada de diarrea
+sintoma_paciente_fiebre_si_o_no </s> Muy bien, y la fiebre de esta semana, ¿ha estado ahí todo el tiempo, o ha ido y venido? </s> viene y va
+sintoma_paciente_si_o_no </s> Vale, ¿has notado algún cambio en la piel o erupciones? </s> Tiene manchas rosadas en el brazo
+sintoma_paciente_fiebre_si_o_no </s> Muy bien, y has tenido alguna fiebre o, o perdón, sí, has mencionado que tuviste una fiebre de 38,2. ¿Y has tenido escalofríos? </s> He tenido escalofríos
+personal_fisico_peso_cambio </s> Bien, ¿has tenido algún cambio de peso en los últimos meses? </s> No ha sufrido cambios de peso
+sintoma_paciente_localizacion_describir </s> OK, y eso, ¿se ha extendido a alguna parte o ha desaparecido? </s> no se han extendido
+sintoma_paciente_si_o_no </s> OK. ¿Y has tenido algunos dolores en el cuerpo, uh, has tenido algún dolor en las articulaciones? </s> No presenta dolor en las articulaciones
+vida_sexual_si_o_no </s> OK, ¿y actualmente es sexualmente activa? </s> sexualmente activa
+sintoma_paciente_si_o_no </s> Vale, bueno eh, ¿te picaban? </s> no son elevadas ni le pican
+sintoma_entorno_si_o_no </s> Muy bien, y ¿podrías contarme un poco sobre tus parejas o, o pareja y yo, y usas preservativos? </s> con su marido y usan DIU
+sintoma_paciente_embarazo_si_o_no </s> OK, ¿y has estado embarazada antes? </s> No ha estado embarazada
+sintoma_paciente_alergia_describir </s> ¿Alguna alergia a los medicamentos? </s> No tiene alergias
+tratamiento_medicacion_describir </s> Bien, ¿tomas alguna medicación regularmente? </s> No toma medicamentos
+sintoma_paciente_antecedentes_describir </s> Vale, ¿has tenido alguna infección de transmisión sexual antes? </s> No a tenido ITS
+tratamiento_operacion_describir </s> Muy bien, uhm, ¿y alguna hospitalización o cirugía en el pasado? </s> No ha tenido hospitalizaciones o cirugías
+sintoma_paciente_antecedentes_describir </s> OK. ¿Y te han diagnosticado alguna enfermedad antes? </s> tuvo eczema
+personal_adiccion_fumar_si_o_no </s> ¿Y fumas cigarrillos? </s> No fuma cigarrillos
+sintoma_entorno_si_o_no </s> Vale, ¿has estado cerca de alguien que haya estado enfermo? </s> Su marido tuvo dolor de garganta
+personal_datos_direccion </s> OK. ¿Y podrías contarme un poco sobre tu situación de vida actual, como, con quién vives, y, y dónde? </s> Vive con su prometido en un apartamento pequeño
+personal_adiccion_otros_si_o_no </s> ¿Usas alguna otra droga recreativa? </s> No usa ninguna droga recreativa
+personal_viajes_si_o_no </s> OK, uh. ¿Y has viajado a algún sitio? </s> No ha viajado fuera
+personal_adiccion_otros_si_o_no </s> ¿Y fumas marihuana o consumes algún producto derivado del cannabis? </s> Fuma marihuana muy ocasionalmente
+personal_adiccion_alcohol_si_o_no </s> Vale. ¿Y bebes alcohol? </s> Toma algo de alcohol muy ocasionalmente
+sintoma_familia_describir </s> OK, ¿y alguna enfermedad genética o algo congénito que haya en la familia? </s> No hay cáncer ni enfermedades genéticas en la familia
+sintoma_familia_si_o_no </s> Vale. Y en la familia, ¿ha habido alguien que haya tenido cáncer? </s> No hay cáncer ni enfermedades genéticas en la familia
+sintoma_paciente_localizacion_si_o_no </s> OK ¿y eso progresó a fiebre? </s> ha tenido fiebre
+motivo_de_consulta </s> Buenos días señora. ¿Qué le ha traído hoy por aquí? </s> ha tenido fiebre, congestión nasal y dolor de garganta
+sintoma_paciente_describir </s> OK, ¿ha estado sintiendo algún otro síntoma aparte de la fiebre? </s> ha tenido fiebre, congestión nasal y dolor de garganta
+afirmar </s> OK. </s> I
+afirmar </s> Así que también existe la posibilidad de que sea sólo gripe, una gripe estacional. Pero hasta que, supongo, descartemos el covid, sería mejor que se mantuviera al margen por si acaso es infecciosa mientras tanto. </s> I
+personal_trabajo_si_o_no </s> Vale, ¿y sale de casa para trabajar? </s> Trabaja como agente de marketing digital desde casa
+sintoma_paciente_si_o_no </s> OK, suena bien. Así que tiene algunos dolores musculares, un poco de fiebre, congestión nasal, dolor de garganta, ¿tiene alguna dificultad para tragar? </s> dolor de garganta
+sintoma_paciente_antecedentes_describir </s> OK, de acuerdo, voy a preguntar otras cosas, sólo por ver cualquier otra cosa que pueda haber tenido en el pasado, uh ¿que edad tiene? </s> 52 años
+tratamiento_operacion_describir </s> OK. ¿Y alguna otra cirugía que haya tenido en su vida? </s> se le ha extirpado la vesícula biliar
+tratamiento_consulta_si_o_no </s> No, ¿algo por lo que haya tenido que ir al médico? </s> pre-diabético
+afirmar </s> Vale, por lo demás parece que has estado bastante sano. </s> I
+personal_entorno_otros_si_o_no </s> ¿Y dijo que vivía con su marido en una casa en Londres? </s> vive con su marido
+personal_adiccion_alcohol_si_o_no </s> ¿Beben alcohol? </s> Bebe ocasionalmente
+tratamiento_medicacion_describir </s> ¿Y qué medicamentos toma, si es que toma alguno? </s> Toma multivitaminas
+personal_adiccion_fumar_si_o_no </s> Vale, ¿y fuman? </s> No fumadora
+personal_trabajo_describir </s> ¿En qué trabajan ustedes dos? </s> Trabaja como agente de marketing digital
+psiquiatria </s> Cuídese </s> I
+sintoma_paciente_describir </s> OK, ¿y alguna condición autoinmune? </s> No hay antecedentes de problemas musculoesqueléticos o neurológicos ni de enfermedades autoinmunes en la familia
+sintoma_paciente_describir </s> Vale, genial. ¿Y alguna preocupación por alguna infección de transmisión sexual en este momento? </s> sin preocupaciones por infecciones de transmisión sexual
+sintoma_familia_si_o_no </s> OK. Y en la familia, ¿ha habido algun historial de problemas musculoesqueléticos o neurológicos? </s> No hay antecedentes de problemas musculoesqueléticos o neurológicos
+sintoma_paciente_si_o_no </s> OK. Y ves alguna atrofia muscular o deformidades del tobillo o del pie. </s> no ve atrofia muscular ni deformidades
+sintoma_paciente_describir </s> OK, entonces la dorsiflexión es limitada. ¿Y qué tal si empujas el pie hacia abajo como si estuvieras pisando el acelerador? </s> También le duele la flexión plantar
+sintoma_paciente_localizacion_describir </s> OK, y en la parte exterior o lateral de tu pie sentirás una especie de, es una prominencia ósea que sobresale en la base del 5º o último metatarsiano ¿te duele ahí? </s> tampoco al presionar la prominencia ósea que sobresale en la base del último metatarsiano
+sintoma_paciente_localizacion_si_o_no </s> Bien, ¿y algún dolor en la parte medial del pie? </s> No duele al presionar el empeine, la parte medial del pie
+motivo_de_consulta </s> Gracias a ti. </s> I
+sintoma_paciente_aparicion_si_o_no </s> Vale, ya veo, ¿y tu pie giró hacia dentro cuando te caíste? </s> estaba girado hacia dentro
+sintoma_paciente_antecedentes_si_o_no </s> Si, absolutamente, uh OK. Has dicho que empezó ayer. ¿Tuviste algún traumatismo en el tobillo o en la pierna o sufriste una caída o algún tipo de lesión? </s> comenzó tras una caída jugando a rugby
+motivo_de_consulta </s> Buenos días, chico. ¿En qué puedo ayudarte? </s> Dolor agudo en el tobillo
+sintoma_paciente_capacidad_si_o_no </s> OK, ¿fuiste capaz de caminar fuera del campo, o necesitaste que te cargaran? ¿O pudiste caminar en algún momento después? </s> Puede caminar pero es doloroso
+sintoma_paciente_localizacion_describir </s> OK. Y y es el dolor. Entonces, ¿dónde se localiza específicamente el dolor en tu pie o tobillo? </s> en la zona del maléolo lateral
+sintoma_paciente_describir </s> Bien, ¿y cómo describirías el dolor en términos de su carácter o calidad, como ardor agudo, punzante? </s> Dolor agudo
+sintoma_paciente_cambio_describir </s> OK, y. ¿Ha habido algo que lo haya empeorado? </s> Soportar cualquier peso sobre el tobillo le resulta doloroso
+tratamiento_medicacion_si_o_no </s> Bien, ¿y has probado algo para aliviar el dolor? </s> Ha probado tanto hielo como ibuprofeno
+sintoma_paciente_localizacion_si_o_no </s> OK, ¿y sientes que el dolor se irradia a alguna otra parte? </s> no se irradia más allá de la zona del tobillo
+sintoma_paciente_describir </s> OK, y ¿cuál dirías que es la severidad del dolor en una escala de 10 a 1, siendo 10 el peor dolor que has sentido? </s> se califica de 7-8 sobre 10 en severidad
+sintoma_paciente_antecedentes_si_o_no </s> Bien, ¿y has tenido antes un dolor como este en el tobillo o te has lesionado el pie antes? </s> no tiene dolor ni lesiones previas en el tobillo
+sintoma_paciente_si_o_no </s> ¿Has tenido alguna pérdida de peso inesperada? </s> No ha habido pérdidas de peso inesperadas
+sintoma_paciente_si_o_no </s> ¿Has tenido fiebre o escalofríos? </s> Sin dolor de cabeza, fiebre o escalofríos
+sintoma_paciente_antecedentes_si_o_no </s> OK. ¿Y has tenido algún dolor de cabeza? </s> Sin dolor de cabeza
+sintoma_paciente_si_o_no </s> OK, ¿ahora has notado alguna perdida sensorial en tu pierna o tobillo? </s> Tampoco hay pérdidas sensoriales en la zona afectada
+sintoma_paciente_describir </s> OK, ¿y has tenido algún cambio sensorial como cambios en tu visión, audición o incluso en tu sentido del olfato o del gusto? </s> Tampoco hay cambios sensoriales
+sintoma_paciente_si_o_no </s> OK, ¿y has tenido algún síntoma neurológico como entumecimiento u hormigueo? </s> Tampoco hay cambios sensoriales ni síntomas neurológicos como entumecimiento u hormigueo
+sintoma_paciente_si_o_no </s> De acuerdo, ¿y has tenido tos? </s> No tiene síntomas infecciosos, tos
+sintoma_paciente_si_o_no </s> OK. y, ¿has tenido algún síntoma infeccioso, como goteo nasal o congestión o incluso dolor de garganta? </s> No tiene síntomas infecciosos
+sintoma_paciente_si_o_no </s> ¿Y falta de aliento? </s> No tiene síntomas infecciosos, tos, ni falta de aliento
+sintoma_paciente_si_o_no </s> Muy bien, ¿has tenido algún dolor en el pecho o sensación de que tu corazón se acelere? </s> Tampoco parece tener dolores en el pecho ni se le acelera el corazón
+sintoma_paciente_si_o_no </s> ¿Has tenido algún mareo o vértigo? </s> No padece mareos o vértigo
+sintoma_paciente_si_o_no </s> ¿Y alguna pérdida de apetito? </s> No ha habido pérdidas de peso inesperadas ni pérdida de apetito
+sintoma_paciente_si_o_no </s> OK. ¿Y has tenido alguna debilidad muscular? </s> Sin debilidad muscular
+sintoma_paciente_si_o_no </s> Muy bien, ¿y has tenido náuseas o vómitos? </s> No padece mareos o vértigo ni tampoco náuseas o vómitos
+sintoma_paciente_si_o_no </s> ¿Has tenido dolor abdominal? </s> Tampoco dolor abdominal
+sintoma_paciente_describir </s> OK, ¿y has tenido algún cambio en los patrones urinarios? </s> tampoco cambios en los patrones urinarios
+sintoma_paciente_si_o_no </s> ¿Has tenido diarrea, estreñimiento o sangre en las heces? </s> Tampoco dolor abdominal, ni cambios en los movimientos intestinales
+sintoma_paciente_alergia_describir </s> Muy bien, ¿tienes alguna alergia? </s> Sin medicación habitual ni alergias
+tratamiento_medicacion_describir </s> Bien, ¿tomas algún medicamento con regularidad, ya sea de venta libre o recetado? </s> Sin medicación habitual
+sintoma_paciente_antecedentes_describir </s> Bien, y en el pasado, ¿has sido diagnosticado con alguna condición médica o alguna razón para ver a un doctor regularmente? </s> No tiene enfermedades
+tratamiento_medicacion_si_o_no </s> Bien, ¿y tus vacunas están al día? </s> están al día
+sintoma_paciente_describir </s> OK, ¿y has tenido algún cambio en tus niveles de energía recientemente? </s> No ha habido cambios en su energía
+tratamiento_operacion_describir </s> OK, OK eso es bueno y ¿has tenido alguna cirugía antes o alguna razón para hospitalizaciones? </s> No tiene enfermedades, cirugías ni hospitalizaciones
+psiquiatria_estado de animo_describir </s> OK, uh y. De acuerdo, ¿podrías contarme un poco sobre tu situación de vida ahora mismo, como con quién estás viviendo y dónde? </s> Vive con sus padres y hermanos en una casa del centro
+personal_trabajo_si_o_no </s> Vale, ¿y actualmente estás estudiando? </s> estudiante de instituto (grado 11º)
+vida_sexual_si_o_no </s> OK. ¿Y actualmente eres sexualmente activo? </s> Sexualmente activo
+sintoma_entorno_si_o_no </s> Bien. ¿Y has estado cerca de alguien que haya estado enfermo recientemente? </s> No ha estado en contacto con nadie enfermo recientemente
+personal_viajes_si_o_no </s> OK, ¿y has viajado a algún sitio? </s> no ha viajado últimamente
+personal_adiccion_otros_si_o_no </s> OK, y sé que a veces la gente en la escuela secundaria y ciertamente en tu grupo de edad puede experimentar con cosas como fumar. Fumar tabaco o cigarrillos, beber alcohol o consumir marihuana. ¿Has usado alguna de esas sustancias? </s> No bebe, fuma ni se droga
+sintoma_paciente_si_o_no </s> OK, y ahora quiero pasar al componente del examen físico y pedirte que mires tus tobillos. ¿Ves alguna hinchazón, enrojecimiento o decoloración? </s> Dolor agudo en el tobillo desde hace un día, hinchazón
+sintoma_paciente_aparicion_si_o_no </s> Solo tu tobillo derecho, OK. ¿Y hay algún cambio de temperatura como calor cuando lo tocas? </s> El tobillo se siente más caliente en comparación con el otro
+sintoma_paciente_aparicion_si_o_no </s> OK. Um y sientes dolor si presionas en la parte superior de tu pie como un? </s> No duele al presionar el empeine
+sintoma_paciente_capacidad_si_o_no </s> OK, y entonces cuando se trata de mover el pie, ¿eres capaz de apuntar los dedos de tu pie hacia tu cara? </s> la dorsiflexión es limitada
+sintoma_paciente_aparicion_si_o_no </s> Bien, ¿y luego has mencionado que al caminar cojeas actualmente? </s> Puede caminar pero es doloroso, por lo que cojea
+sintoma_familia_describir </s> Okay. Uh, ¿algún antecedente familiar de alguna condición um, musculoesquelética o reumatológica? Uh, ¿alguna artritis reumatoide, algo así? </s> No hay antecedentes familiares de condiciones musculoesqueléticas o reumatológicas
+personal_adiccion_otros_si_o_no </s> Vale, ¿y te has inyectado drogas recientemente? </s> hace dos días
+personal_adiccion_fumar_si_o_no </s> De acuerdo. ¿Y fumas cigarrillos? </s> Fuma
+personal_adiccion_fumar_inicio </s> Vale, ¿y desde cuándo fumas? </s> desde hace 20 años
+afirmar </s> Muy bien, sí, así que sí, tendremos todo eso hecho para ti en breve, y eh, vamos viendo desde allí. </s> I
+sintoma_paciente_antecedentes_si_o_no </s> Vale, ¿y te había pasado esto antes? </s> niega haberse lesionado la rodilla ni otras articulaciones anteriormente
+sintoma_paciente_si_o_no </s> Vale, ¿es como um, entonces, está hinchada, está roja y caliente? </s> Dice que está muy roja y caliente
+sintoma_paciente_antecedentes_si_o_no </s> Vale, ya veo. ¿Y has tenido alguna vez celulitis en esa zona? </s> dice haber tenido celulitis en el pie en el pasado
+motivo_de_consulta </s> ¿Qué te trae hoy por aquí? </s> tiene dolor e hinchazón en la rodilla izquierda
+afirmar </s> Vale. </s> I
+sintoma_paciente_describir </s> Vale, ¿te has hecho daño antes de las últimas horas o algo? ¿Algún trauma en um, es la rodilla derecha o la izquierda? </s> niega haberse lesionado la rodilla ni otras articulaciones anteriormente
+sintoma_paciente_aparicion_describir </s> Vale, y uh, ¿sientes el dolor principalmente con el movimiento de tu rodilla, o um, cuando presionas sobre ella? </s> presente en reposo y en movimiento
+sintoma_paciente_describir </s> Vale, ¿y cómo describirías el dolor? Um, ¿es como un dolor agudo, punzante, o es un dolor constante? </s> describe el dolor como punzante
+sintoma_paciente_describir </s> Ok. Y en una escala del 1 al 10, perdón del 0 al 10, siendo 10 el peor dolor que has sentido en tu vida, ¿en cuánto calificarías este dolor? </s> intensidad de 9/10
+sintoma_paciente_describir </s> Vale, y um, ¿tienes algún dolor o síntoma en alguna otra articulación o músculo del cuerpo? </s> No tiene otros dolores o síntomas
+sintoma_paciente_inicio </s> Bien, ¿cuándo sintió fiebre? </s> se ha sentido febril hoy
+sintoma_paciente_si_o_no </s> Solo la rodilla izquierda, ok. Um, ¿tienes algún otro síntoma como fiebre, escalofríos, náuseas o vómitos? </s> se ha sentido febril hoy, pero sin escalofríos
+sintoma_paciente_capacidad_si_o_no </s> Ok, y ¿eres capaz de soportar peso?, ¿eres capaz de estar de pie y caminar por ti mismo? </s> se siente incapaz de caminar
+sintoma_paciente_describir </s> Ok, y el dolor ha sido constante desde que empezó hace unas horas. </s> ha empeorado
+sintoma_paciente_fiebre_describir </s> Ok, y um, ¿has tenido oportunidad de medir tu temperatura? Si no, podemos hacerlo aquí. </s> tampoco ha llegado a medir la temperatura
+sintoma_paciente_antecedentes_si_o_no </s> Bien, ¿y has estado enfermo recientemente, con algún síntoma de resfriado, o algún síntoma gastrointestinal, como diarrea, estreñimiento, algo así? </s> Sin síntomas de resfriado, o algún síntoma gastrointestinal, como diarrea o estreñimiento
+sintoma_paciente_fiebre_describir </s> Vale. Ok, um, entonces si, tomaremos tu temperatura tu uh, fiebre, y, entonces, ¿eres capaz de flexionar o extender tu rodilla en absoluto, o es muy dolorosa? </s> movimiento en toda la rodilla
+personal_fisico_peso_peso </s> De acuerdo. Um, ¿algún cambio en tu peso o apetito? </s> Sin cambios de apetito o peso
+sintoma_paciente_si_o_no </s> Ok, y por lo demás, ¿estás teniendo um, algún síntoma de uh, mareos, desmayos? </s> Nada de desmayos o mareos
+sintoma_paciente_antecedentes_describir </s> Ok, um, ¿tienes alguna condición médica pasada que te hayan diagnosticado? ¿Alguna diabetes? ¿Presión arterial alta? </s> tiene diabetes
+sintoma_paciente_si_o_no </s> Ok, ¿alguna debilidad um, en tus extremidades? </s> Nada de desmayos o mareos ni ninguna debilidad en las extremidades
+tratamiento_medicacion_describir </s> Vale, um, ¿tomas algo para medicarte, medicación para tu diabetes? </s> toma metformina
+sintoma_paciente_alergia_describir </s> Vale, ya veo. ¿Tienes alergia a algún medicamento? </s> No hay alergias
+sintoma_paciente_duracion </s> Vale. Vale, ¿y cuánto tiempo hace de eso? </s> hace 2 años
+sintoma_paciente_causa_describir </s> Vale, y eh, ¿te dijeron cómo pudo haber sido transmitido? ¿Fue sexualmente? ¿Fue a través del uso de drogas intravenosas? ¿Y te dijeron cuál era la causa probable? </s> debido al uso de drogas intravenosas
+sintoma_paciente_describir </s> ¿Y sabes qué hepatitis has tenido? </s> ha tenido hepatitis C
+personal_trabajo_si_o_no </s> Vale, y ¿has um, y qué usas normalmente? </s> principalmente opioides
+tratamiento_operacion_describir </s> Bien, ¿ha tenido alguna hospitalización o cirugía en el pasado? </s> No hay cirugías u hospitalizaciones previas
+personal_adiccion_otros_si_o_no </s> Vale, vale. ¿Y usas alguna otra droga? ¿Alguna droga recreativa como la marihuana o alguna, te inyectas alguna otra droga? </s> consume merihuana y pastillas como dilaudid
+sintoma_paciente_inicio </s> Vale. Um, has tenido uh, ¿cuándo fue la última vez que tuviste celulitis? </s> hace 6 meses
+psiquiatria_estado de animo_describir </s> De acuerdo. Y actualmente, ahora mismo, um, ¿cómo es tu situación de vida? </s> Vive con sus padres
+tratamiento_consulta_describir </s> Vale, ¿y fuiste ingresado en algún momento, o fuiste tratado como paciente externo? </s> fue tratado como paciente externo
+personal_trabajo_si_o_no </s> Vale. Y, um, ¿trabajas actualmente? </s> hace 15 años que no trabaja
+personal_adiccion_alcohol_si_o_no </s> 20 años, vale. ¿Y bebes alcohol? </s> Bebe
+sintoma_paciente_describir </s> ¿Algún síntoma en las caderas o el tobillo? </s> No tiene dolor en la cadera o el tobillo
+sintoma_paciente_describir </s> Ok, y si, estabamos hablando de algo de uh, como el movimiento, pero estas diciendo que tienes dolor con cualquier tipo de movimiento, ¿verdad? </s> or como punzante con una intensidad de 9/10. El dolor está presente en reposo y en 
+sintoma_paciente_si_o_no </s> ¿Y también está muy rojo e hinchado y caliente? </s> está muy roja y caliente
+afirmar </s> De acuerdo, de nada </s> I
+tratamiento_operacion_si_o_no </s> Y um, puede que también necesitemos una radiografía, así que no te muevas. Te llamaremos. </s> I
+tratamiento_operacion_describir </s> OK, um, ¿y alguna hospitalización reciente? </s> fractura de pierna
+tratamiento_medicacion_describir </s> OK, ¿y alguna medicación aparte de eso, incluyendo los inhaladores? </s> toma diariamente esteroides inhalados y vitaminas
+sintoma_paciente_alergia_describir </s> OK, ¿y alguna alergia? </s> no tiene alergias conocidas
+afirmar </s> DE ACUERDO. </s> I
+sintoma_paciente_localizacion_describir </s> Sí, exactamente. </s> I
+motivo_de_consulta </s> Me preguntaba si podría contarme un poco qué le trajo por aquí. </s> presenta dificultad para respirar
+sintoma_paciente_antecedentes_si_o_no </s> OK, y uh, ¿ocurre esto en algún otro escenario? </s> empeora con el ejercicio, el frío y cerca de animales domésticos
+sintoma_paciente_aparicion_si_o_no </s> OK, y uh, cuando estás haciendo ejercicio o en clase de gimnasia, ¿te falta el aliento o encuentras que tienes dificultad para respirar? </s> empeora con el ejercicio
+afirmar </s> OK. </s> I
+sintoma_paciente_duracion </s> OK, ¿y cuánto tiempo tarda en desaparecer la dificultad respiratoria? </s> duración de unos pocos minutos
+personal_trabajo_horas </s> Vale, ¿cuántos días a la semana lo usas? </s> toma diariamente esteroides inhalados
+tratamiento_operacion_describir </s> OK, ¿y alguna cirugía? </s> extracción de muelas del juicio
+afirmar </s> OK. </s> I
+sintoma_paciente_describir </s> Esencialmente, le harán respirar por un tubo y tendrá periodos en los que inhalará al máximo y luego exhalará al máximo tan rápido como pueda, y hará diferentes tipos de movimientos respiratorios que se medirán en un aparato. </s> I
+sintoma_paciente_describir </s> OK ¿y en qué grado ahora? </s> está en el grado 11
+afirmar </s> OK. </s> I
+afirmar </s> Excelente. </s> I
+sintoma_familia_si_o_no </s> OK, genial um. Y en su familia, ¿alguien ha tenido antes alguno de estos síntomas similares? </s> El padre de la paciente tiene antecedentes de asma
+sintoma_familia_describir </s> Vale, ¿y alguna alergia en la familia? </s> El padre de la paciente tiene antecedentes de asma y alergias estacionales
+afirmar </s> OK </s> I
+sintoma_paciente_si_o_no </s> OK. Umm ¿algún dolor de garganta? </s> posiblemente dolor de garganta
+sintoma_paciente_si_o_no </s> OK y ¿la tos es como de ladrido o de sonido áspero? </s> áspero
+sintoma_paciente_inicio </s> Si, por supuesto. ¿Así que la tos empezó hace 5 días? </s> hace dos días
+motivo_de_consulta </s> ¿Le importaría empezar a contarme qué le trajo por aquí? </s> tose
+sintoma_paciente_si_o_no </s> OK, ¿alguna secreción de los ojos? </s> conjuntivitis con picor
+sintoma_paciente_si_o_no </s> No. OK, uh, ¿y sobre algún picor en los ojos? </s> conjuntivitis con picor
+sintoma_paciente_si_o_no </s> OK, umm ¿y ha mencionado algo sobre estar congestionada? </s> tiene la nariz tapada
+motivo_de_consulta </s> ¿Qué le trae por aquí? </s> presenta una tos
+sintoma_paciente_si_o_no </s> Vale, entonces sí, rebobinemos un poco. La tos empezó hace un par de semanas, ¿eso serían dos semanas? ¿Tres semanas? </s> la última semana
+afirmar </s> DE ACUERDO. </s> I
+sintoma_paciente_si_o_no </s> OK, usted mencionó pérdida de olfato. ¿Tiene goteo o congestión nasal? </s> refiere una pérdida reciente del gusto y el olfato y goteo nasal
+afirmar </s> Si, seguro. </s> I
+sintoma_paciente_alergia_describir </s> DE ACUERDO. ¿Tiene alguna alergia? </s> tiene alergias estacionales
+sintoma_familia_describir </s> ¿Alguna enfermedad pulmonar o cardiaca en la familia? </s> El padre de la paciente sufrió un infarto
+tratamiento_medicacion_si_o_no </s> OK. ¿Y qué hay de las vacunas? ¿Estás al día? </s> al día con las vacunas
+personal_adiccion_fumar_cantidad </s> Vale, ¿cuánto fumas? </s> fuma un paquete de cigarrillos al día
+personal_adiccion_fumar_cantidad </s> Un paquete al día, vale. ¿Durante cuánto tiempo? </s> desde hace 10 años
+personal_adiccion_alcohol_cantidad </s> OK, y luego um, supongo que te preguntaré sobre el alcohol, uhm, ¿cuánto bebes? </s> varias veces a la semana
+sintoma_paciente_antecedentes_describir </s> OK, bien. ¿Alguna enfermedad importante o de larga duración, o por lo demás está sano? </s> tiene asma
+personal_adiccion_fumar_si_o_no </s> OK. ¿Y, y fuma usted? </s> fumador
+sintoma_familia_describir </s> Vale, ¿algún tipo de cáncer en la familia? </s> No hay antecedentes de cáncer en la familia
+afirmar </s> Vale, suena genial, gracias. </s> I
+motivo_de_consulta </s> ¿Qué le trae por aquí? </s> presenta una tos
+afirmar </s>  OK, durante los últimos tres días, tres tres años. OK. </s> I
+sintoma_paciente_frecuencia </s> OK, OK. ¿Con qué frecuencia tosía antes de que empeorara recientemente? </s> principalmente por las mañanas
+sintoma_paciente_inicio </s> OK, entonces empecemos con la tos. ¿Cuándo empezó? </s> los últimos tres días
+sintoma_paciente_describir </s> OK, OK y usted mencionó que está produciendo mucho esputo con su tos. ¿De qué color es ese esputo? </s> verde
+sintoma_paciente_describir </s> OK, OK. Y si tuviera que valorar la gravedad de sus síntomas, de cómo se siente, del 1 al 10, siendo 10 lo peor, ¿dónde se situaría? </s> Valora la gravedad de los síntomas con un 8 sobre 10
+sintoma_paciente_describir </s> OK, Um aparte de su EPOC, ¿tiene alguna otra condición médica de larga duración como hipertensión, diabetes, algo así? </s> tiene antecedentes de EPOC, hipertensión arterial
+tratamiento_operacion_describir </s> VALE. OK, ¿alguna otra cirugía u hospitalización? </s> tiene antecedentes de EPOC, hipertensión arterial, pérdida de peso involuntaria, cirugía de extirpación de la vesícula biliar y reparación del ligamento cruzado anterior
+tratamiento_medicacion_describir </s> OK, y además de los inhaladores, ¿está tomando alguna otra medicación? </s> La medicación actual incluye amlodipino para la tensión arterial, vitamina D, inhalador broncodilatador de acción corta y Spiriva
+afirmar </s> No, OK um ¿y por lo demás está sano? </s> tiene antecedentes de EPOC
+tratamiento_medicacion_describir </s> Bien, y para su EPOC, ¿qué inhaladores está tomando? </s> inhalador broncodilatador de acción corta y Spiriva
+sintoma_paciente_cambio_describir </s> OK, bueno es bueno que lo hayas reducido, um si necesitas alguna ayuda adicional para reducirlo tenemos recursos a los que podemos remitirte. </s> I
+personal_adiccion_fumar_si_o_no </s> No, OK. ¿Actualmente fuma? </s> fumadora
+afirmar </s> De acuerdo. Cuídese </s> I
+sintoma_paciente_describir </s> OK. ¿Y qué tipo de dolor estás experimentando, es una especie de dolor agudo o es un dolor sordo? </s> constante
+sintoma_paciente_aparicion_describir </s> Seis o siete OK. ¿Y es un dolor constante, o te duele cuando no estás jugando al baloncesto o haciendo otras actividades? </s> Duele principalmente al hacer ejercicio o cualquier actividad que requiera esfuerzo con la rodilla
+sintoma_paciente_antecedentes_si_o_no </s> Vale, ya veo, ¿te ha pasado alguna vez? </s> Nunca había tenido problemas con la rodilla
+sintoma_paciente_describir </s> OK. Y por lo demás, ¿tienes algún otro síntoma además del dolor, como entumecimiento, hormigueo? </s> No tiene síntomas como entumecimiento, hormigueo
+sintoma_paciente_antecedentes_si_o_no </s> OK. OK, y aparte de eso, ¿has tenido alguna caída o alguna lesión recientemente antes de empezar a tener este dolor? </s> Nunca había tenido problemas con la rodilla
+sintoma_paciente_describir </s> OK, uhm. ¿Algún cambio en tu piel, como alguna erupción? </s> No ha tenido cambios en la piel
+sintoma_paciente_alergia_describir </s> OK. ¿Alguna alergia? </s> no tiene alergias
+sintoma_paciente_si_o_no </s> OK, ¿y algún tipo de dificultad para respirar, dolor en el pecho? </s> No ha tenido cambios en la piel, dificultad para respirar o dolores en el pecho
+tratamiento_operacion_describir </s> OK, OK. ¿Y tienes algún historial reciente o pasado de alguna hospitalización o cirugía? </s> No tiene historial de hospitalizaciones ni cirujías
+personal_trabajo_si_o_no </s> OK, OK. Y actualmente. ¿Vas a la escuela o trabajas? </s> va a décimo curso
+afirmar </s> OK en el grado 10 OK. Y la escuela va bien, ¿algún problema de bullying o algo así? </s> No ha sufrido de acoso escolar
+sintoma_paciente_describir </s> Vale. Muy bien, esas son algunas de las preguntas que tenía. Tengo algunas preguntas más de cara a examinar tu rodilla. ¿Puedes caminar o cojeas? </s> Puede caminar sin cojear
+tratamiento_medicacion_si_o_no </s> Vale, eso está bien. Y ¿estás al día con todas tus vacunas? </s> Todas las vacunas están al día
+sintoma_paciente_localizacion_si_o_no </s> No, de acuerdo. OK, y ninguna debilidad debajo de tu rodilla, ¿verdad? </s> siente cómo sus músculos (cuádriceps e isquiotibiales) están tensos
+sintoma_paciente_si_o_no </s> OK y ¿has notado algún tipo de rotación de tu rodilla? </s> No ha notado ninguna rotación en la rodilla
+sintoma_paciente_describir </s> No OK, y en tu tobillo y caderas no tienes ningún dolor o problemas con el movimiento, ¿verdad? </s> No tiene problemas en la cadera y el tobillo
+motivo_de_consulta </s> Y ¿qué te trae por aquí hoy? </s> presenta dolor en la rodilla derecha
+personal_datos_edad </s> Buenos días, joven. ¿Cuántos años tienes? </s> 15 años
+sintoma_paciente_inicio </s> Vale, ¿y dices que esto empezó hace sólo dos semanas? </s> en las últimas semanas
+sintoma_paciente_cambio_describir </s> Bien, y el dolor ha ido empeorando con la actividad y está justo debajo de la rótula, ¿es en la pierna derecha o en la izquierda? </s> derecha
+sintoma_paciente_localizacion_describir </s> Si, te lleva. OK, ¿y el dolor se desplaza a algún otro sitio o está, está justo debajo de tu rótula? </s> debajo de la rótula
+sintoma_paciente_si_o_no </s> OK, ¿y alguna debilidad en tus piernas? </s> No tiene síntomas como entumecimiento, hormigueo o debilidad en las piernas
+sintoma_paciente_cambio_describir </s> OK, y uh. ¿Has probado algo que mejore el dolor o algo que lo empeore? </s> Ha tomado Tylenol, Advil y NSAIDs, además de aplicar hielo después de entrenar, lo que ha parecido aliviarlo un poco
+sintoma_paciente_describir </s> Bien, y aparte de eso, ¿estás sano, tienes alguna enfermedad? </s> está sano
+tratamiento_medicacion_describir </s> Bien, ¿tomas algún medicamento regularmente? </s> no toma medicamentos
+sintoma_paciente_describir </s> OK. ¿Y algún cambio en tus movimientos intestinales o patrones urinarios? </s> No ha habido ningún cambio en sus movimientos intestinales o patrones urinarios
+personal_entorno_describir </s> Vale. ¿Y cómo es tu situación en casa? Vives, ¿con quién vives? </s> Vive con sus padres, su hermana pequeña y un perro
+sintoma_familia_describir </s> OK, ¿y algún historial familiar de alguna condición musculoesquelética o algo que haya en la familia? </s> Nada como una condición musculoesquelética en la familia
+psiquiatria </s> Vale, ¿y en general te sientes seguro tanto en casa como fuera de ella? </s> No ha sufrido de acoso escolar, ni parece haber problemas en la familia
+personal_deporte_si_o_no </s> OK ¿y puedes correr? </s> puede correr aunque después duela
+sintoma_paciente_capacidad_si_o_no </s> Y, uh. ¿Puedes flexionar y extender la rodilla si lo intentas? </s> puede flexionar y extender la rodilla
+sintoma_paciente_si_o_no </s> Vale, ¿y notas algún tipo de hinchazón o enrojecimiento o hematoma en la zona? </s> No se ve ninguna hinchazón, rojez o hematoma
+sintoma_paciente_aparicion_si_o_no </s> OK y. Así que cuando palpas la parte inferior de tu rodilla justo debajo de la rótula, dices que es un dolor agudo, ¿verdad? </s> al presionar un punto en concreto debajo de la rótula se vuelve agudo
+motivo_de_consulta </s> ¿Qué le trae por aquí hoy? </s> tiene un dolor punzante en el lado derecho del vientre
+sintoma_paciente_localizacion_si_o_no </s> Vale, ¿y está en la zona derecha y se desplaza a algún otro sitio aparte del lado derecho? </s> El dolor no se irradia
+sintoma_paciente_localizacion_describir </s> OK, ¿y exactamente en qué parte de su vientre tiene este dolor? </s> en el lado derecho
+sintoma_paciente_describir </s> OK. Y en una escala del 1 al 10, siendo 1 el menor dolor que sintió en su vida, y 10 el peor, ¿en cuánto lo calificaría en este momento? </s> lo califica de 8 sobre 10
+sintoma_paciente_describir </s> El lado derecho, OK y ¿puede describir qué tipo de dolor es? ¿Es un dolor sordo o agudo, un dolor punzante? </s> un dolor punzante
+sintoma_paciente_aparicion_describir </s> Hace 8 horas, vale. ¿Y estaba haciendo algo antes? Como, ¿ha comido o estaba durmiendo antes de que le despertara?, ¿qué estaba pasando antes de que tuviera el dolor? </s> justo antes de ir a dormir
+sintoma_paciente_cambio_describir </s> Vale, ¿y ha ido empeorando desde que empezó? </s> ha sido constante durante las últimas seis horas
+sintoma_paciente_inicio </s> Un 8, vale y para aclararlo, ¿cuándo empezó? </s> comenzó hace 8 horas
+sintoma_paciente_antecedentes_si_o_no </s> OK. ¿Y ha tenido algún dolor similar en el pasado? </s> tiene un dolor similar que aparece y desaparece después de comer alimentos grasos
+tratamiento_medicacion_describir </s> OK, ¿ha probado alguna medicación? </s> Tomó Tylenol pero no fue de ayuda
+sintoma_paciente_si_o_no </s> ¿Algún sudor o como escalofríos? </s> No tiene vómitos, fiebre o escalofríos
+sintoma_paciente_fiebre_si_o_no </s> Bien, ¿y ha tenido fiebre? </s> No tiene vómitos, fiebre o escalofríos
+sintoma_paciente_cambio_describir </s> Vale, ¿y hay algo que lo mejore o empeore o algo que haya probado? </s> Tomó Tylenol pero no fue de ayuda
+sintoma_paciente_si_o_no </s> OK, ¿algún cambio en sus movimientos intestinales como estreñimiento, diarrea? </s> No ha tenido cambios en los movimientos intestinales
+sintoma_paciente_describir </s> OK. Y además, uh, del dolor que usted tiene, ¿tiene usted alguna náusea y vómito? </s> Otros síntomas son náuseas y fatiga
+sintoma_paciente_si_o_no </s> ¿Se ha sentido muy cansado, no como siempre, fatigado? </s> fatiga
+personal_viajes_si_o_no </s> OK. ¿Ha viajado a algún lugar recientemente? </s> No ha viajado ni ha tenido infecciones recientemente
+sintoma_paciente_describir </s> OK. Um, ¿ha tenido algún cambio en sus patrones urinarios? </s> No ha tenido cambios en los movimientos intestinales ni en los patrones urinarios
+sintoma_paciente_si_o_no </s> ¿No? ¿Algún cambio en su piel y erupciones, alguna coloración amarillenta de su piel? </s> No ha tenido erupciones ni cambios en la piel
+sintoma_paciente_describir </s> OK, y que hay de su apetito, ¿ha cambiado algo? </s> Ha comido menos debido al dolor
+personal_fisico_peso_cambio </s> ¿Ha perdido peso recientemente? </s> no ha tenido pérdidas de peso
+sintoma_paciente_describir </s> OK. ¿Algún cambio en el color de su orina? </s> No ha tenido cambios en los movimientos intestinales ni en los patrones urinarios
+sintoma_paciente_antecedentes_describir </s> OK, ¿alguna infección reciente? </s> No ha viajado ni ha tenido infecciones recientemente
+sintoma_paciente_describir </s> Um, y por lo demás, ¿tiene alguna otra condición médica como diabetes, presión alta o cualquier otra cosa? </s> Tiene diabetes
+tratamiento_medicacion_describir </s> ¿Y toma algo para la diabetes? </s> toma metformina
+tratamiento_operacion_si_o_no </s> OK. ¿Y ha sido hospitalizado en el pasado? </s> No ha tenido hospitalizaciones en el pasado
+tratamiento_medicacion_describir </s> Vale, ¿toma alguna otra medicación? </s> no toma otras medicaciones
+sintoma_familia_si_o_no </s> OK. Hmm, y en términos de su historia familiar, ¿ha tenido alguien algún cáncer o alguna enfermedad inflamatoria intestinal como la enfermedad de Crohn o colitis ulcerosa? </s> En la familia del paciente no hay historial de cáncer o alguna enfermedad inflamatoria intestinal
+sintoma_entorno_si_o_no </s> OK. ¿Ha estado en contacto con alguien que haya estado enfermo recientemente? </s> no ha estado en contacto con nadie enfermo recientemente
+personal_trabajo_si_o_no </s> OK. Y um, actualmente ¿trabaja? </s> no trabaja
+sintoma_familia_describir </s> OK. ¿Y algo que venga de familia? </s> n la familia del paciente no hay historial de cáncer o alguna enfermedad inflamatoria intestinal
+personal_entorno_mascota_si_o_no </s> Entonces, ¿vive en un apartamento, casa y vive con alguien? </s> Vive solo en un apartamento
+personal_deporte_describir </s> Um, y en términos de su rutina diaria, ¿siente que hace suficiente ejercicio? ¿Sale a pasear o a correr o algo por el estilo? </s> Suele salir a correr
+personal_adiccion_alcohol_cantidad </s> ¿Cuánto dirías que bebes en una semana normal? </s> una o dos veces al día
+personal_adiccion_alcohol_cantidad </s> Vale, ¿y qué bebes normalmente? </s> Bebe alcohol
+personal_adiccion_fumar_cantidad </s> Vale. ¿Y fumas cigarrillos? </s> no fuma
+personal_adiccion_alcohol_si_o_no </s> ¿Y bebe alcohol? </s> Bebe alcohol una o dos veces al día
+personal_adiccion_otros_si_o_no </s> OK. ¿Y usas alguna droga recreativa como la marihuana? </s> no consume drogas
+sintoma_paciente_describir </s> OK. Muy bien, entonces um, esas son todas las preguntas que tengo y solo para aclarar, ¿su dolor aparece y desaparece, o es constante? </s> ha sido constante durante las últimas seis horas
+afirmar </s> OK. Muy bien </s> I
+motivo_de_consulta </s> Buenos días. ¿Quieres contarme qué te ha traído hoy aquí? </s> tiene pérdida del sentido del olfato y del gusto, además de tos
+afirmar </s> OK. ¿Dijiste por un par de dias? </s> están presentes de manera constante desde hace 2 días
+sintoma_paciente_antecedentes_si_o_no </s> OK, ¿habías tenido algo así antes? </s> no ha vivido nada parecido antes
+sintoma_paciente_describir </s> OK, ¿eso ha sido bastante constante a lo largo de los últimos dos días o es intermitente? </s> están presentes de manera constante
+sintoma_paciente_describir </s> OK, cuando dices que sientes que has perdido el sentido del gusto y del olfato, ¿se ha ido totalmente o sólo un poco? </s> mantiene la capacidad de oler olores muy fuertes y saborear alimentos muy salados
+sintoma_paciente_fiebre_si_o_no </s> OK, OK. ¿Has tenido, además de estos síntomas, fiebre? </s> Nada de fiebre
+sintoma_paciente_describir </s> Y cuando dices, lo siento, has dicho tos leve, y mi siguiente pregunta es ¿sientes que es una tos seca o estás produciendo algún esputo? ¿Algo de sangre? ¿O no expulsas nada? </s> seca
+sintoma_paciente_aparicion_si_o_no </s> OK. ¿Y esta tos seca empezó al mismo tiempo? </s> están presentes de manera constante desde hace 2 días
+sintoma_paciente_si_o_no </s> OK, ¿algún dolor de garganta? </s> No tiene dolor de garganta
+sintoma_paciente_si_o_no </s> OK, ¿algún dolor de cabeza? </s> No tiene dolor de cabeza
+sintoma_entorno_si_o_no </s> Bien, ¿y recientemente has estado en contacto con alguien que haya estado enfermo? </s> No ha estado en contacto con nadie enfermo
+sintoma_paciente_si_o_no </s> OK, ¿algún escalofrío o sudores nocturnos? </s> Sin escalofríos ni sudores nocturnos
+sintoma_paciente_si_o_no </s> OK, ¿alguna dificultad para respirar? </s> No hay dificultad para respirar
+sintoma_paciente_si_o_no </s> OK, ¿algún dolor muscular o debilidad general? </s> Nada de dolor muscular o debilidad
+sintoma_paciente_causa_describir </s> OK, y pensando en esta tos seca, sólo vamos a darle otra vuelta a esto. ¿Puedes pensar en algo que la desencadene? ¿Empieza al estar cerca de ciertas cosas como gatos o perros o cualquier otro factor ambiental? </s> aparecieron sin causa aparente
+personal_viajes_si_o_no </s> Vale, ¿has viajado a algún sitio? </s> Hace dos semanas fue a una excursión
+personal_viajes_si_o_no </s> Vale, ¿fuiste de excursión a algún lugar cercano? </s> a media hora de aquí
+tratamiento_medicacion_si_o_no </s> OK. ¿Están tus vacunas al día? </s> Tiene las vacunas al día
+tratamiento_operacion_describir </s> OK, ¿has tenido alguna cirugía o has sido hospitalizado por alguna otra razón? </s> no tiene condiciones médicas anteriores, cirugías u hospitalizaciones
+sintoma_paciente_si_o_no </s> OK, entonces en general parece que estás bastante bien aparte de esta pérdida del gusto y el olfato y la tos seca. </s> I
+sintoma_paciente_describir </s> OK. ¿Has tenido algún dolor en el pecho?. No estoy seguro de haberte preguntado. </s> No ha tenido dolor en el pecho
+personal_otros_describir </s> Bien. Y en cuanto a tu estilo de vida, ¿vives con tu familia? </s> vive con sus padres y un hermano pequeño
+sintoma_entorno_si_o_no </s> Vale, ¿vives con un compañero o compañera de piso? </s> vive con sus padres y un hermano pequeño
+tratamiento_medicacion_describir </s> ¿Tomas alguna medicación? </s> no tiene medicamentos actuales
+sintoma_familia_si_o_no </s> ¿Tiene antecedentes familiares de problemas respiratorios, cánceres o problemas cardíacos? </s> La familia del paciente no tiene antecedentes de problemas respiratorios, cánceres o problemas cardíacos
+personal_adiccion_fumar_si_o_no </s> ¿Fumas? </s> No fuma
+sintoma_paciente_describir </s> Bien. Y en cuanto a tu salud en general, ¿tienes alguna enfermedad crónica? </s> no tiene condiciones médicas anteriores
+sintoma_paciente_alergia_describir </s> ¿Tienes alguna alergia? </s> no tiene medicamentos actuales, alergias
+personal_dieta_si_o_no </s> Vale. Y en general, ¿llevas una dieta sana? ¿Haces ejercicio? </s> Sigue una dieta sana y hace ejercicio
+personal_adiccion_otros_si_o_no </s> OK um. ¿Y consumes marihuana? </s> ha probado comestibles de marihuana
+personal_adiccion_alcohol_si_o_no </s> Vale, ¿bebes alcohol? </s> no bebe habitualmente
+personal_adiccion_otros_describir </s> OK, ¿alguna otra droga? </s> No consume otras drogas
+sintoma_paciente_si_o_no </s> ¿Así que realmente no has salido de casa? </s> sin salir de casa
+motivo_de_consulta </s> Bien, gracias por venir hoy. Te atenderemos en breve. </s> I
+personal_entorno_hijos_otros </s> OK, ¿y estás actualmente en el instituto? </s> en el último año de instituto, online
+saludo </s> Bien, gracias. </s> I
